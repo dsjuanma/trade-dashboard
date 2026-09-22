@@ -212,7 +212,7 @@
     {
       "status": "IGNORED",
       "reason": "no_observed_entry",
-      "count": 2
+      "count": 3
     },
     {
       "status": "REJECTED",
@@ -228,11 +228,11 @@
     "ignored": 1,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-09-22T22:54:55.138450+00:00"
+    "last_cycle": "2026-09-22T22:55:22.521576+00:00"
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-09-22T22:54:55.139254+00:00"
+  "updated_at": "2026-09-22T22:55:22.522280+00:00"
 }
