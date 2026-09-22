@@ -1,8 +1,8 @@
 {
   "initial_cash": 1000,
-  "cash": 971.360189611948,
+  "cash": 946.360189611948,
   "realized_pnl": -3.669994783955358,
-  "total_fees": 0.6849345062755531,
+  "total_fees": 0.7474345062755531,
   "positions": [
     {
       "symbol": "ARM",
@@ -21,6 +21,15 @@
       "buys": 1,
       "source_wallet": "wallet-db34596b15",
       "position_id": "position-2931a9469fa7"
+    },
+    {
+      "symbol": "NVDAx",
+      "quantity": 0.10822814854081436,
+      "cost": 25,
+      "avg_price": 230.99351081084185,
+      "buys": 1,
+      "source_wallet": "wallet-db34596b15",
+      "position_id": "position-905a5620934a"
     }
   ],
   "trades": [
@@ -215,19 +224,31 @@
       "pnl": -0.8940336263032798,
       "slippage_pct": 0.022717260866163137,
       "source_wallet": "wallet-db34596b15"
+    },
+    {
+      "time": "2026-09-22T23:32:08.424660+00:00",
+      "side": "BUY",
+      "symbol": "NVDAx",
+      "execution_price": 230.41602703381474,
+      "quantity": 0.10822814854081436,
+      "usd": 25,
+      "fee": 0.0625,
+      "pnl": null,
+      "slippage_pct": 0.006631620764808585,
+      "source_wallet": "wallet-db34596b15"
     }
   ],
   "wallet_metrics": {
     "wallet-db34596b15": {
-      "trades": 16,
+      "trades": 17,
       "closed_trades": 9,
       "wins": 0,
       "win_rate": 0.0,
       "realized_pnl": -3.669995,
-      "invested": 151.153281,
-      "return_on_invested_pct": -2.428,
+      "invested": 176.153281,
+      "return_on_invested_pct": -2.083,
       "profit_factor": 0.0,
-      "score": 17.57,
+      "score": 17.92,
       "avg_holding_hours": 0.87
     }
   },
@@ -264,14 +285,14 @@
   },
   "decision_metrics": [
     {
-      "status": "IGNORED",
-      "reason": "no_observed_entry",
+      "status": "COPIED",
+      "reason": "executed",
       "count": 3
     },
     {
-      "status": "COPIED",
-      "reason": "executed",
-      "count": 2
+      "status": "IGNORED",
+      "reason": "no_observed_entry",
+      "count": 3
     },
     {
       "status": "REJECTED",
@@ -285,18 +306,18 @@
     }
   ],
   "operations": {
-    "tx_new": 0,
-    "signals": 0,
-    "copied": 0,
+    "tx_new": 1,
+    "signals": 1,
+    "copied": 1,
     "rejected": 0,
     "ignored": 0,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-09-22T23:31:24.125199+00:00"
+    "last_cycle": "2026-09-22T23:32:10.842827+00:00"
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-09-22T23:31:24.126089+00:00"
+  "updated_at": "2026-09-22T23:32:10.843518+00:00"
 }
