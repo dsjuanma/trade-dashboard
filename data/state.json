@@ -256,21 +256,26 @@
       "status": "REJECTED",
       "reason": "adverse_price_move",
       "count": 1
+    },
+    {
+      "status": "REJECTED",
+      "reason": "paper_risk_limit",
+      "count": 1
     }
   ],
   "operations": {
-    "tx_new": 0,
-    "signals": 0,
+    "tx_new": 1,
+    "signals": 1,
     "copied": 0,
-    "rejected": 0,
+    "rejected": 1,
     "ignored": 0,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-09-22T23:08:24.819271+00:00"
+    "last_cycle": "2026-09-22T23:08:43.500122+00:00"
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-09-22T23:08:24.819971+00:00"
+  "updated_at": "2026-09-22T23:08:43.501114+00:00"
 }
