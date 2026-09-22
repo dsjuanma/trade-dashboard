@@ -207,9 +207,10 @@
       "avg_holding_hours": 1.59
     }
   },
+  "markout_metrics": {},
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-09-22T21:43:59.557782+00:00"
+  "updated_at": "2026-09-22T21:50:20.850653+00:00"
 }
