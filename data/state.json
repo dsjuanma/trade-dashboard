@@ -1,8 +1,8 @@
 {
   "initial_cash": 1000,
-  "cash": 972.2542232382514,
+  "cash": 947.2542232382514,
   "realized_pnl": -2.775961157652078,
-  "total_fees": 0.5620185504517518,
+  "total_fees": 0.6245185504517518,
   "positions": [
     {
       "symbol": "ARM",
@@ -21,6 +21,15 @@
       "buys": 1,
       "source_wallet": "wallet-db34596b15",
       "position_id": "position-2931a9469fa7"
+    },
+    {
+      "symbol": "DOGE",
+      "quantity": 244.2250781248984,
+      "cost": 25,
+      "avg_price": 0.1023645900410556,
+      "buys": 1,
+      "source_wallet": "wallet-db34596b15",
+      "position_id": "position-00f9e74404b3"
     }
   ],
   "trades": [
@@ -191,19 +200,31 @@
       "pnl": -0.3199657203817736,
       "slippage_pct": 0.006222881870269776,
       "source_wallet": "wallet-db34596b15"
+    },
+    {
+      "time": "2026-09-22T23:05:56.533195+00:00",
+      "side": "BUY",
+      "symbol": "DOGE",
+      "execution_price": 0.10210867856595296,
+      "quantity": 244.2250781248984,
+      "usd": 25,
+      "fee": 0.0625,
+      "pnl": null,
+      "slippage_pct": 0.006611345698422633,
+      "source_wallet": "wallet-db34596b15"
     }
   ],
   "wallet_metrics": {
     "wallet-db34596b15": {
-      "trades": 14,
+      "trades": 15,
       "closed_trades": 8,
       "wins": 0,
       "win_rate": 0.0,
       "realized_pnl": -2.775961,
-      "invested": 126.153281,
-      "return_on_invested_pct": -2.2,
+      "invested": 151.153281,
+      "return_on_invested_pct": -1.837,
       "profit_factor": 0.0,
-      "score": 17.8,
+      "score": 18.16,
       "avg_holding_hours": 1.59
     }
   },
@@ -215,24 +236,29 @@
       "count": 3
     },
     {
+      "status": "COPIED",
+      "reason": "executed",
+      "count": 1
+    },
+    {
       "status": "REJECTED",
       "reason": "adverse_price_move",
       "count": 1
     }
   ],
   "operations": {
-    "tx_new": 0,
-    "signals": 0,
-    "copied": 0,
+    "tx_new": 1,
+    "signals": 1,
+    "copied": 1,
     "rejected": 0,
     "ignored": 0,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-09-22T23:05:39.691654+00:00"
+    "last_cycle": "2026-09-22T23:05:59.625794+00:00"
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-09-22T23:05:39.692285+00:00"
+  "updated_at": "2026-09-22T23:05:59.626498+00:00"
 }
