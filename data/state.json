@@ -247,18 +247,18 @@
     }
   ],
   "operations": {
-    "tx_new": 1,
-    "signals": 1,
-    "copied": 1,
+    "tx_new": 0,
+    "signals": 0,
+    "copied": 0,
     "rejected": 0,
     "ignored": 0,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-09-22T23:05:59.625794+00:00"
+    "last_cycle": "2026-09-22T23:06:52.597295+00:00"
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-09-22T23:05:59.626498+00:00"
+  "updated_at": "2026-09-22T23:06:52.598034+00:00"
 }
