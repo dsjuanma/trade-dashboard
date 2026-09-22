@@ -255,13 +255,13 @@
   "markout_metrics": {
     "wallet-db34596b15": {
       "60": {
-        "samples": 2,
-        "effective_samples": 1,
-        "avg_net_return_pct": -2.2146,
-        "ci_low_net_return_pct": -3.9888,
-        "ci_high_net_return_pct": -0.4404,
+        "samples": 3,
+        "effective_samples": 2,
+        "avg_net_return_pct": -1.9458,
+        "ci_low_net_return_pct": -3.0977,
+        "ci_high_net_return_pct": -0.794,
         "hit_rate_pct": 0.0,
-        "avg_latency_seconds": 14.66
+        "avg_latency_seconds": 17.96
       },
       "300": {
         "samples": 1,
@@ -313,11 +313,11 @@
     "ignored": 0,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-09-22T23:32:28.391583+00:00"
+    "last_cycle": "2026-09-22T23:32:55.519667+00:00"
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-09-22T23:32:28.392327+00:00"
+  "updated_at": "2026-09-22T23:32:55.520623+00:00"
 }
