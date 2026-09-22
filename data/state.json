@@ -1,9 +1,9 @@
 {
   "created_at": "2026-09-22T16:44:51.248384+00:00",
   "initial_cash": 1000,
-  "cash": 926.1115194171601,
-  "realized_pnl": -0.04176137983496986,
-  "total_fees": 0.190285762950276,
+  "cash": 950.2275843872118,
+  "realized_pnl": -0.8280959711803604,
+  "total_fees": 0.2507270285393778,
   "positions": {
     "BtTCqA8XwG6swdb3tRrBBDxcBstmCEKQWbjHQza9tWBz:Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8": {
       "token": "Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8",
@@ -26,9 +26,9 @@
     "BtTCqA8XwG6swdb3tRrBBDxcBstmCEKQWbjHQza9tWBz:ARMbSB1MBRQrY6PNMao1HdQ431VafC6JRJCsGZ2Yv3iJ": {
       "token": "ARMbSB1MBRQrY6PNMao1HdQ431VafC6JRJCsGZ2Yv3iJ",
       "symbol": "ARM",
-      "quantity": 0.07359913033645628,
-      "cost": 25,
-      "avg_price": 339.6779267052916,
+      "quantity": 0.0002873322960654512,
+      "cost": 0.09760043860298495,
+      "avg_price": 339.6779267052967,
       "source_wallet": "BtTCqA8XwG6swdb3tRrBBDxcBstmCEKQWbjHQza9tWBz",
       "buys": 1
     }
@@ -84,24 +84,39 @@
       "fee": 0.0625,
       "source_wallet": "BtTCqA8XwG6swdb3tRrBBDxcBstmCEKQWbjHQza9tWBz",
       "source_tx": "6557dVah3BMH7zBvK7jkWsd8UX2ETAAxJP1mz3uFjkhmFAMiKuf3QBN5yFRQ4ch1cd4d7yVeM9faeZm8KynhUisT"
+    },
+    {
+      "time": "2026-09-22T20:10:58.910846+00:00",
+      "side": "SELL",
+      "token": "ARMbSB1MBRQrY6PNMao1HdQ431VafC6JRJCsGZ2Yv3iJ",
+      "symbol": "ARM",
+      "market_price": 331.4336418721782,
+      "execution_price": 329.7764736628173,
+      "quantity": 0.07331179804039083,
+      "fraction": 0.9960959824558806,
+      "usd": 24.116064970051625,
+      "fee": 0.06044126558910182,
+      "pnl": -0.7863345913453905,
+      "source_wallet": "BtTCqA8XwG6swdb3tRrBBDxcBstmCEKQWbjHQza9tWBz",
+      "source_tx": "5txqep8QSvmBcxMechS5Fv2TMyHwhC3YTZ5C1ywCN2qZ1S2afj5UTxCnP8qpM48z9GRgHRmGxG7AhVKMPZjQHmp7"
     }
   ],
   "analytics": {
     "peak_equity": 1000.0,
-    "max_drawdown_pct": 0.08809556943585904,
-    "last_mark_at": "2026-09-22T20:10:09.670946+00:00",
+    "max_drawdown_pct": 0.16828397931587916,
+    "last_mark_at": "2026-09-22T20:11:04.634930+00:00",
     "last_prices": {
       "Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8": {
-        "price": 153.60008689804803,
-        "marked_at": "2026-09-22T20:10:09.670946+00:00"
+        "price": 153.60020619442386,
+        "marked_at": "2026-09-22T20:11:04.634930+00:00"
       },
       "C1MHyoTJpRTeS9AQCyspNVu2EWAYCZwmJ1jNkEArFP1f": {
-        "price": 0.1580978916062482,
-        "marked_at": "2026-09-22T20:10:09.670946+00:00"
+        "price": 0.15780487877321958,
+        "marked_at": "2026-09-22T20:11:04.634930+00:00"
       },
       "ARMbSB1MBRQrY6PNMao1HdQ431VafC6JRJCsGZ2Yv3iJ": {
-        "price": 346.6267517827194,
-        "marked_at": "2026-09-22T20:10:09.670946+00:00"
+        "price": 346.68757345356823,
+        "marked_at": "2026-09-22T20:11:04.634930+00:00"
       }
     }
   }
