@@ -209,9 +209,19 @@
   },
   "markout_metrics": {},
   "decision_metrics": [],
+  "operations": {
+    "tx_new": 0,
+    "signals": 0,
+    "copied": 0,
+    "rejected": 0,
+    "ignored": 0,
+    "api_errors": 0,
+    "valuation_complete": true,
+    "last_cycle": "2026-09-22T22:10:34.555942+00:00"
+  },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-09-22T22:10:10.512238+00:00"
+  "updated_at": "2026-09-22T22:10:34.556518+00:00"
 }
