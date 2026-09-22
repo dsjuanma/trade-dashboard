@@ -67,15 +67,15 @@
   "analytics": {
     "peak_equity": 1000.0,
     "max_drawdown_pct": 0.08809556943585904,
-    "last_mark_at": "2026-09-22T20:08:02.662257+00:00",
+    "last_mark_at": "2026-09-22T20:09:01.445636+00:00",
     "last_prices": {
       "Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8": {
-        "price": 153.59608168623802,
-        "marked_at": "2026-09-22T20:08:02.662257+00:00"
+        "price": 153.5961052380199,
+        "marked_at": "2026-09-22T20:09:01.445636+00:00"
       },
       "C1MHyoTJpRTeS9AQCyspNVu2EWAYCZwmJ1jNkEArFP1f": {
-        "price": 0.1581388899327447,
-        "marked_at": "2026-09-22T20:08:02.662257+00:00"
+        "price": 0.15817888964174606,
+        "marked_at": "2026-09-22T20:09:01.445636+00:00"
       }
     }
   }
