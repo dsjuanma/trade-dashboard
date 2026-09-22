@@ -1,0 +1,32 @@
+{
+  "created_at": "2026-09-22T16:44:51.248384+00:00",
+  "initial_cash": 1000,
+  "cash": 975,
+  "realized_pnl": 0,
+  "total_fees": 0.0625,
+  "positions": {
+    "BtTCqA8XwG6swdb3tRrBBDxcBstmCEKQWbjHQza9tWBz:Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8": {
+      "token": "Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8",
+      "symbol": "SPCXx",
+      "quantity": 0.16144518612377542,
+      "cost": 25,
+      "avg_price": 154.85131889180772,
+      "source_wallet": "BtTCqA8XwG6swdb3tRrBBDxcBstmCEKQWbjHQza9tWBz",
+      "buys": 1
+    }
+  },
+  "trades": [
+    {
+      "time": "2026-09-22T17:40:17.918141+00:00",
+      "side": "BUY",
+      "token": "Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8",
+      "symbol": "SPCXx",
+      "market_price": 153.6957120344062,
+      "execution_price": 154.4641905945782,
+      "quantity": 0.16144518612377542,
+      "usd": 25,
+      "fee": 0.0625,
+      "source_wallet": "BtTCqA8XwG6swdb3tRrBBDxcBstmCEKQWbjHQza9tWBz"
+    }
+  ]
+}
