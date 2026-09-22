@@ -306,18 +306,18 @@
     }
   ],
   "operations": {
-    "tx_new": 1,
-    "signals": 1,
+    "tx_new": 0,
+    "signals": 0,
     "copied": 0,
     "rejected": 0,
-    "ignored": 1,
+    "ignored": 0,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-09-22T23:34:01.389004+00:00"
+    "last_cycle": "2026-09-22T23:34:22.912630+00:00"
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-09-22T23:34:01.389981+00:00"
+  "updated_at": "2026-09-22T23:34:22.913443+00:00"
 }
