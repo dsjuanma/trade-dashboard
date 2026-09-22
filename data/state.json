@@ -1,8 +1,8 @@
 {
   "initial_cash": 1000,
-  "cash": 950.934579830365,
+  "cash": 925.934579830365,
   "realized_pnl": -0.8924412149807295,
-  "total_fees": 0.2582725769984026,
+  "total_fees": 0.3207725769984026,
   "positions": [
     {
       "symbol": "SPCXx",
@@ -25,6 +25,14 @@
       "quantity": 0.0002873322960654512,
       "cost": 0.09760043860298495,
       "avg_price": 339.6779267052967,
+      "buys": 1,
+      "source_wallet": "wallet-db34596b15"
+    },
+    {
+      "symbol": "LLY",
+      "quantity": 0.021082736180515545,
+      "cost": 25,
+      "avg_price": 1185.8043370625087,
       "buys": 1,
       "source_wallet": "wallet-db34596b15"
     }
@@ -113,19 +121,31 @@
       "pnl": -0.0643452438003691,
       "slippage_pct": 0.006144909324645996,
       "source_wallet": "wallet-db34596b15"
+    },
+    {
+      "time": "2026-09-22T21:12:28.503307+00:00",
+      "side": "BUY",
+      "symbol": "LLY",
+      "execution_price": 1182.8398262198523,
+      "quantity": 0.021082736180515545,
+      "usd": 25,
+      "fee": 0.0625,
+      "pnl": null,
+      "slippage_pct": 0.0060475164794921875,
+      "source_wallet": "wallet-db34596b15"
     }
   ],
   "wallet_metrics": {
     "wallet-db34596b15": {
-      "trades": 7,
+      "trades": 8,
       "closed_trades": 3,
       "wins": 0,
       "win_rate": 0.0,
       "realized_pnl": -0.892441,
-      "invested": 76.153281,
-      "return_on_invested_pct": -1.172,
+      "invested": 101.153281,
+      "return_on_invested_pct": -0.882,
       "profit_factor": 0.0,
-      "score": 18.83,
+      "score": 19.12,
       "avg_holding_hours": 0.65
     }
   },
@@ -133,5 +153,5 @@
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-09-22T21:11:38.428307+00:00"
+  "updated_at": "2026-09-22T21:12:32.032126+00:00"
 }
