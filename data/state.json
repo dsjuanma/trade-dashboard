@@ -208,9 +208,10 @@
     }
   },
   "markout_metrics": {},
+  "decision_metrics": [],
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-09-22T22:00:01.593324+00:00"
+  "updated_at": "2026-09-22T22:00:55.697083+00:00"
 }
