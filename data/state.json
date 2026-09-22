@@ -1,8 +1,8 @@
 {
   "initial_cash": 1000,
-  "cash": 949.0743035902167,
-  "realized_pnl": -0.8280959711803604,
-  "total_fees": 0.2536102305318655,
+  "cash": 950.934579830365,
+  "realized_pnl": -0.8924412149807295,
+  "total_fees": 0.2582725769984026,
   "positions": [
     {
       "symbol": "SPCXx",
@@ -14,8 +14,8 @@
     },
     {
       "symbol": "APE",
-      "quantity": 154.11924684396521,
-      "cost": 25.0,
+      "quantity": 142.25439830132976,
+      "cost": 23.075378516051313,
       "avg_price": 0.16221205665059293,
       "buys": 2,
       "source_wallet": "wallet-db34596b15"
@@ -101,25 +101,37 @@
       "pnl": null,
       "slippage_pct": 0.006122925770282745,
       "source_wallet": "wallet-db34596b15"
+    },
+    {
+      "time": "2026-09-22T20:34:12.981879+00:00",
+      "side": "SELL",
+      "symbol": "APE",
+      "execution_price": 0.1571818283152403,
+      "quantity": 11.864848542635452,
+      "usd": 1.8602762401483175,
+      "fee": 0.0046623464665371366,
+      "pnl": -0.0643452438003691,
+      "slippage_pct": 0.006144909324645996,
+      "source_wallet": "wallet-db34596b15"
     }
   ],
   "wallet_metrics": {
     "wallet-db34596b15": {
-      "trades": 6,
-      "closed_trades": 2,
+      "trades": 7,
+      "closed_trades": 3,
       "wins": 0,
       "win_rate": 0.0,
-      "realized_pnl": -0.828096,
+      "realized_pnl": -0.892441,
       "invested": 76.153281,
-      "return_on_invested_pct": -1.087,
+      "return_on_invested_pct": -1.172,
       "profit_factor": 0.0,
-      "score": 18.91,
-      "avg_holding_hours": 0.03
+      "score": 18.83,
+      "avg_holding_hours": 0.36
     }
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-09-22T20:33:14.555464+00:00"
+  "updated_at": "2026-09-22T20:34:23.061257+00:00"
 }
