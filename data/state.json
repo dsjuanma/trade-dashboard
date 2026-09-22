@@ -1,14 +1,14 @@
 {
   "initial_cash": 1000,
-  "cash": 947.4571817173056,
-  "realized_pnl": -2.4452178440914465,
-  "total_fees": 0.4998705767150457,
+  "cash": 948.1280508059479,
+  "realized_pnl": -2.4559954372703046,
+  "total_fees": 0.5015519528770562,
   "positions": [
     {
       "symbol": "SPCXx",
-      "quantity": 0.16144518612377542,
-      "cost": 25,
-      "avg_price": 154.85131889180772,
+      "quantity": 0.157868452962712,
+      "cost": 24.44613815268527,
+      "avg_price": 154.85131889180775,
       "buys": 1,
       "source_wallet": "wallet-db34596b15"
     },
@@ -22,8 +22,8 @@
     },
     {
       "symbol": "JTO",
-      "quantity": 46.83970767214189,
-      "cost": 25,
+      "quantity": 46.6002915004135,
+      "cost": 24.872215165493664,
       "avg_price": 0.5337351841516478,
       "buys": 1,
       "source_wallet": "wallet-db34596b15"
@@ -161,19 +161,43 @@
       "pnl": -0.49893232429262824,
       "slippage_pct": 0.006304490900039673,
       "source_wallet": "wallet-db34596b15"
+    },
+    {
+      "time": "2026-09-22T21:23:28.661531+00:00",
+      "side": "SELL",
+      "symbol": "SPCXx",
+      "execution_price": 153.15790000282536,
+      "quantity": 0.0035767331610634056,
+      "usd": 0.5464354274693912,
+      "fee": 0.0013695123495473464,
+      "pnl": -0.0074264198453416475,
+      "slippage_pct": 0.006303307584524155,
+      "source_wallet": "wallet-db34596b15"
+    },
+    {
+      "time": "2026-09-22T21:23:28.676798+00:00",
+      "side": "SELL",
+      "symbol": "JTO",
+      "execution_price": 0.5210405131980875,
+      "quantity": 0.2394161717283917,
+      "usd": 0.12443366117281945,
+      "fee": 0.00031186381246320664,
+      "pnl": -0.0033511733335161997,
+      "slippage_pct": 0.006208383904695511,
+      "source_wallet": "wallet-db34596b15"
     }
   ],
   "wallet_metrics": {
     "wallet-db34596b15": {
-      "trades": 11,
-      "closed_trades": 5,
+      "trades": 13,
+      "closed_trades": 7,
       "wins": 0,
       "win_rate": 0.0,
-      "realized_pnl": -2.445218,
+      "realized_pnl": -2.455995,
       "invested": 126.153281,
-      "return_on_invested_pct": -1.938,
+      "return_on_invested_pct": -1.947,
       "profit_factor": 0.0,
-      "score": 18.06,
+      "score": 18.05,
       "avg_holding_hours": 1.59
     }
   },
@@ -181,5 +205,5 @@
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-09-22T21:22:36.205604+00:00"
+  "updated_at": "2026-09-22T21:23:32.809912+00:00"
 }
