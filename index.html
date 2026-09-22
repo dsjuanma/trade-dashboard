@@ -33,6 +33,7 @@ section{margin-top:18px}.wide{grid-column:1/-1}table{width:100%;border-collapse:
 <script>
 const money=n=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD'}).format(Number(n||0));
 const short=s=>s?String(s).slice(0,6)+'…'+String(s).slice(-4):'—';
+const esc=value=>String(value??'—').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
 async function load(){
  try{
   const [s,c]=await Promise.all([fetch('data/state.json?'+Date.now()),fetch('data/cycles.jsonl?'+Date.now())]);
@@ -41,7 +42,7 @@ async function load(){
   document.querySelector('#initial').textContent=money(state.initial_cash);
   document.querySelector('#cash').textContent=money(state.cash);
   document.querySelector('#exposure').textContent=money(positions.reduce((a,p)=>a+Number(p.cost||0),0));
-  const v=last.valuation||{};
+  const v=last.valuation||last.portfolio||{};
   document.querySelector('#pnl').textContent=money(state.realized_pnl);
   document.querySelector('#equity').textContent=v.equity==null?'—':money(v.equity);
   document.querySelector('#unrealized').textContent=v.unrealized_pnl==null?'—':money(v.unrealized_pnl);
@@ -50,10 +51,10 @@ async function load(){
   document.querySelector('#drawdown').textContent=v.max_drawdown_pct==null?'—':Number(v.max_drawdown_pct).toFixed(2)+'%';
   document.querySelector('#updated').textContent=last.time?new Date(last.time).toLocaleString():'—';
   const wallets=Object.entries(v.wallets||{});
-  document.querySelector('#wallets').innerHTML=wallets.length?'<table><tr><th>Wallet</th><th>Realizado</th><th>No realizado</th><th>Total</th><th>Posiciones</th><th>Trades</th></tr>'+wallets.map(([w,x])=>'<tr><td class="wallet">'+short(w)+'</td><td>'+money(x.realized_pnl)+'</td><td>'+money(x.unrealized_pnl)+'</td><td>'+money(x.total_pnl)+'</td><td>'+Number(x.open_positions||0)+'</td><td>'+Number(x.trades||0)+'</td></tr>').join('')+'</table>':'<div class="muted">Sin actividad por wallet todavía.</div>';
-  document.querySelector('#positions').innerHTML=positions.length?'<table><tr><th>Token</th><th>Wallet</th><th>Costo</th><th>Cantidad</th><th>Precio prom.</th><th>Precio actual</th><th>Valor</th><th>PnL abierto</th></tr>'+positions.map(p=>{const m=(v.positions_marked||[]).find(x=>x.key===p.source_wallet+':'+p.token)||{};return '<tr><td>'+p.symbol+'</td><td class="wallet">'+short(p.source_wallet)+'</td><td>'+money(p.cost)+'</td><td>'+Number(p.quantity).toFixed(6)+'</td><td>'+money(p.avg_price)+'</td><td>'+(m.current_price==null?'—':money(m.current_price))+'</td><td>'+(m.market_value==null?'—':money(m.market_value))+'</td><td>'+(m.unrealized_pnl==null?'—':money(m.unrealized_pnl))+'</td></tr>'}).join('')+'</table>':'<div class="muted">Sin posiciones abiertas.</div>';
+  document.querySelector('#wallets').innerHTML=wallets.length?'<table><tr><th>Wallet</th><th>Realizado</th><th>No realizado</th><th>Total</th><th>Posiciones</th><th>Trades</th></tr>'+wallets.map(([w,x])=>'<tr><td class="wallet">'+esc(short(w))+'</td><td>'+money(x.realized_pnl)+'</td><td>'+money(x.unrealized_pnl)+'</td><td>'+money(x.total_pnl)+'</td><td>'+Number(x.open_positions||0)+'</td><td>'+Number(x.trades||0)+'</td></tr>').join('')+'</table>':'<div class="muted">Sin actividad por wallet todavía.</div>';
+  document.querySelector('#positions').innerHTML=positions.length?'<table><tr><th>Token</th><th>Wallet</th><th>Costo</th><th>Cantidad</th><th>Precio prom.</th><th>Precio actual</th><th>Valor</th><th>PnL abierto</th></tr>'+positions.map(p=>{const m=(v.positions_marked||[]).find(x=>x.position_id===p.position_id)||{};return '<tr><td>'+esc(p.symbol)+'</td><td class="wallet">'+esc(short(p.source_wallet))+'</td><td>'+money(p.cost)+'</td><td>'+Number(p.quantity).toFixed(6)+'</td><td>'+money(p.avg_price)+'</td><td>'+(m.current_price==null?'—':money(m.current_price))+'</td><td>'+(m.market_value==null?'—':money(m.market_value))+'</td><td>'+(m.unrealized_pnl==null?'—':money(m.unrealized_pnl))+'</td></tr>'}).join('')+'</table>':'<div class="muted">Sin posiciones abiertas.</div>';
   const trades=[...(state.trades||[])].reverse();
-  document.querySelector('#trades').innerHTML=trades.length?'<table><tr><th>Hora</th><th>Acción</th><th>Token</th><th>Wallet</th><th>USD</th><th>Precio ejecución</th><th>Fee</th></tr>'+trades.map(t=>'<tr><td>'+new Date(t.time).toLocaleString()+'</td><td class="'+String(t.side).toLowerCase()+'">'+t.side+'</td><td>'+t.symbol+'</td><td class="wallet">'+short(t.source_wallet)+'</td><td>'+money(t.usd)+'</td><td>'+money(t.execution_price)+'</td><td>'+money(t.fee)+'</td></tr>').join('')+'</table>':'<div class="muted">Todavía no hay operaciones.</div>';
+  document.querySelector('#trades').innerHTML=trades.length?'<table><tr><th>Hora</th><th>Acción</th><th>Token</th><th>Wallet</th><th>USD</th><th>Precio ejecución</th><th>Fee</th></tr>'+trades.map(t=>'<tr><td>'+new Date(t.time).toLocaleString()+'</td><td class="'+String(t.side).toLowerCase()+'">'+esc(t.side)+'</td><td>'+esc(t.symbol)+'</td><td class="wallet">'+esc(short(t.source_wallet))+'</td><td>'+money(t.usd)+'</td><td>'+money(t.execution_price)+'</td><td>'+money(t.fee)+'</td></tr>').join('')+'</table>':'<div class="muted">Todavía no hay operaciones.</div>';
  }catch(e){document.querySelector('#updated').textContent='No se pudieron cargar los datos: '+e.message}
 }
 load(); setInterval(load,60000);
