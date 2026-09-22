@@ -1,9 +1,9 @@
 {
   "created_at": "2026-09-22T16:44:51.248384+00:00",
   "initial_cash": 1000,
-  "cash": 950,
-  "realized_pnl": 0,
-  "total_fees": 0.125,
+  "cash": 951.1115194171601,
+  "realized_pnl": -0.04176137983496986,
+  "total_fees": 0.127785762950276,
   "positions": {
     "BtTCqA8XwG6swdb3tRrBBDxcBstmCEKQWbjHQza9tWBz:Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8": {
       "token": "Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8",
@@ -17,8 +17,8 @@
     "BtTCqA8XwG6swdb3tRrBBDxcBstmCEKQWbjHQza9tWBz:C1MHyoTJpRTeS9AQCyspNVu2EWAYCZwmJ1jNkEArFP1f": {
       "token": "C1MHyoTJpRTeS9AQCyspNVu2EWAYCZwmJ1jNkEArFP1f",
       "symbol": "APE",
-      "quantity": 154.07357592187591,
-      "cost": 25,
+      "quantity": 146.96597206447333,
+      "cost": 23.84671920300491,
       "avg_price": 0.1622601400039967,
       "source_wallet": "BtTCqA8XwG6swdb3tRrBBDxcBstmCEKQWbjHQza9tWBz",
       "buys": 1
@@ -48,20 +48,34 @@
       "usd": 25,
       "fee": 0.0625,
       "source_wallet": "BtTCqA8XwG6swdb3tRrBBDxcBstmCEKQWbjHQza9tWBz"
+    },
+    {
+      "time": "2026-09-22T19:34:42.724501+00:00",
+      "side": "SELL",
+      "token": "C1MHyoTJpRTeS9AQCyspNVu2EWAYCZwmJ1jNkEArFP1f",
+      "symbol": "APE",
+      "market_price": 0.15756431085592315,
+      "execution_price": 0.15677648930164353,
+      "quantity": 7.107603857402591,
+      "fraction": 0.046131231879803655,
+      "usd": 1.1115194171601215,
+      "fee": 0.002785762950275994,
+      "pnl": -0.04176137983496986,
+      "source_wallet": "BtTCqA8XwG6swdb3tRrBBDxcBstmCEKQWbjHQza9tWBz"
     }
   ],
   "analytics": {
     "peak_equity": 1000.0,
-    "max_drawdown_pct": 0.07464963983097732,
-    "last_mark_at": "2026-09-22T19:33:37.640530+00:00",
+    "max_drawdown_pct": 0.07570753402436593,
+    "last_mark_at": "2026-09-22T19:34:52.094843+00:00",
     "last_prices": {
       "Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8": {
-        "price": 153.6079840077786,
-        "marked_at": "2026-09-22T19:33:37.640530+00:00"
+        "price": 153.61131918036722,
+        "marked_at": "2026-09-22T19:34:52.094843+00:00"
       },
       "C1MHyoTJpRTeS9AQCyspNVu2EWAYCZwmJ1jNkEArFP1f": {
-        "price": 0.1588010228126426,
-        "marked_at": "2026-09-22T19:33:37.640530+00:00"
+        "price": 0.15875509751718367,
+        "marked_at": "2026-09-22T19:34:52.094843+00:00"
       }
     }
   }
