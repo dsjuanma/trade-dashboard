@@ -1,123 +1,110 @@
 {
-  "created_at": "2026-09-22T16:44:51.248384+00:00",
   "initial_cash": 1000,
   "cash": 950.2275843872118,
   "realized_pnl": -0.8280959711803604,
   "total_fees": 0.2507270285393778,
-  "positions": {
-    "BtTCqA8XwG6swdb3tRrBBDxcBstmCEKQWbjHQza9tWBz:Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8": {
-      "token": "Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8",
+  "positions": [
+    {
       "symbol": "SPCXx",
       "quantity": 0.16144518612377542,
       "cost": 25,
       "avg_price": 154.85131889180772,
-      "source_wallet": "BtTCqA8XwG6swdb3tRrBBDxcBstmCEKQWbjHQza9tWBz",
-      "buys": 1
+      "buys": 1,
+      "source_wallet": "wallet-db34596b15"
     },
-    "BtTCqA8XwG6swdb3tRrBBDxcBstmCEKQWbjHQza9tWBz:C1MHyoTJpRTeS9AQCyspNVu2EWAYCZwmJ1jNkEArFP1f": {
-      "token": "C1MHyoTJpRTeS9AQCyspNVu2EWAYCZwmJ1jNkEArFP1f",
+    {
       "symbol": "APE",
       "quantity": 146.96597206447333,
       "cost": 23.84671920300491,
       "avg_price": 0.1622601400039967,
-      "source_wallet": "BtTCqA8XwG6swdb3tRrBBDxcBstmCEKQWbjHQza9tWBz",
-      "buys": 1
+      "buys": 1,
+      "source_wallet": "wallet-db34596b15"
     },
-    "BtTCqA8XwG6swdb3tRrBBDxcBstmCEKQWbjHQza9tWBz:ARMbSB1MBRQrY6PNMao1HdQ431VafC6JRJCsGZ2Yv3iJ": {
-      "token": "ARMbSB1MBRQrY6PNMao1HdQ431VafC6JRJCsGZ2Yv3iJ",
+    {
       "symbol": "ARM",
       "quantity": 0.0002873322960654512,
       "cost": 0.09760043860298495,
       "avg_price": 339.6779267052967,
-      "source_wallet": "BtTCqA8XwG6swdb3tRrBBDxcBstmCEKQWbjHQza9tWBz",
-      "buys": 1
+      "buys": 1,
+      "source_wallet": "wallet-db34596b15"
     }
-  },
+  ],
   "trades": [
     {
       "time": "2026-09-22T17:40:17.918141+00:00",
       "side": "BUY",
-      "token": "Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8",
       "symbol": "SPCXx",
-      "market_price": 153.6957120344062,
       "execution_price": 154.4641905945782,
       "quantity": 0.16144518612377542,
       "usd": 25,
       "fee": 0.0625,
-      "source_wallet": "BtTCqA8XwG6swdb3tRrBBDxcBstmCEKQWbjHQza9tWBz"
+      "pnl": null,
+      "slippage_pct": null,
+      "source_wallet": "wallet-db34596b15"
     },
     {
       "time": "2026-09-22T19:32:35.815260+00:00",
       "side": "BUY",
-      "token": "C1MHyoTJpRTeS9AQCyspNVu2EWAYCZwmJ1jNkEArFP1f",
       "symbol": "APE",
-      "market_price": 0.16104924343680269,
       "execution_price": 0.1618544896539867,
       "quantity": 154.07357592187591,
       "usd": 25,
       "fee": 0.0625,
-      "source_wallet": "BtTCqA8XwG6swdb3tRrBBDxcBstmCEKQWbjHQza9tWBz"
+      "pnl": null,
+      "slippage_pct": null,
+      "source_wallet": "wallet-db34596b15"
     },
     {
       "time": "2026-09-22T19:34:42.724501+00:00",
       "side": "SELL",
-      "token": "C1MHyoTJpRTeS9AQCyspNVu2EWAYCZwmJ1jNkEArFP1f",
       "symbol": "APE",
-      "market_price": 0.15756431085592315,
       "execution_price": 0.15677648930164353,
       "quantity": 7.107603857402591,
-      "fraction": 0.046131231879803655,
       "usd": 1.1115194171601215,
       "fee": 0.002785762950275994,
       "pnl": -0.04176137983496986,
-      "source_wallet": "BtTCqA8XwG6swdb3tRrBBDxcBstmCEKQWbjHQza9tWBz"
+      "slippage_pct": null,
+      "source_wallet": "wallet-db34596b15"
     },
     {
       "time": "2026-09-22T20:10:03.042345+00:00",
       "side": "BUY",
-      "token": "ARMbSB1MBRQrY6PNMao1HdQ431VafC6JRJCsGZ2Yv3iJ",
       "symbol": "ARM",
-      "market_price": 337.14301680450586,
       "execution_price": 338.82873188852835,
       "quantity": 0.07359913033645628,
       "usd": 25,
       "fee": 0.0625,
-      "source_wallet": "BtTCqA8XwG6swdb3tRrBBDxcBstmCEKQWbjHQza9tWBz",
-      "source_tx": "6557dVah3BMH7zBvK7jkWsd8UX2ETAAxJP1mz3uFjkhmFAMiKuf3QBN5yFRQ4ch1cd4d7yVeM9faeZm8KynhUisT"
+      "pnl": null,
+      "slippage_pct": null,
+      "source_wallet": "wallet-db34596b15"
     },
     {
       "time": "2026-09-22T20:10:58.910846+00:00",
       "side": "SELL",
-      "token": "ARMbSB1MBRQrY6PNMao1HdQ431VafC6JRJCsGZ2Yv3iJ",
       "symbol": "ARM",
-      "market_price": 331.4336418721782,
       "execution_price": 329.7764736628173,
       "quantity": 0.07331179804039083,
-      "fraction": 0.9960959824558806,
       "usd": 24.116064970051625,
       "fee": 0.06044126558910182,
       "pnl": -0.7863345913453905,
-      "source_wallet": "BtTCqA8XwG6swdb3tRrBBDxcBstmCEKQWbjHQza9tWBz",
-      "source_tx": "5txqep8QSvmBcxMechS5Fv2TMyHwhC3YTZ5C1ywCN2qZ1S2afj5UTxCnP8qpM48z9GRgHRmGxG7AhVKMPZjQHmp7"
+      "slippage_pct": null,
+      "source_wallet": "wallet-db34596b15"
     }
   ],
-  "analytics": {
-    "peak_equity": 1000.0,
-    "max_drawdown_pct": 0.1747957960791382,
-    "last_mark_at": "2026-09-22T20:15:00.880042+00:00",
-    "last_prices": {
-      "Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8": {
-        "price": 153.63887338087628,
-        "marked_at": "2026-09-22T20:15:00.880042+00:00"
-      },
-      "C1MHyoTJpRTeS9AQCyspNVu2EWAYCZwmJ1jNkEArFP1f": {
-        "price": 0.15805386749740086,
-        "marked_at": "2026-09-22T20:15:00.880042+00:00"
-      },
-      "ARMbSB1MBRQrY6PNMao1HdQ431VafC6JRJCsGZ2Yv3iJ": {
-        "price": 346.1632634422933,
-        "marked_at": "2026-09-22T20:15:00.880042+00:00"
-      }
+  "wallet_metrics": {
+    "wallet-db34596b15": {
+      "trades": 5,
+      "closed_trades": 2,
+      "wins": 0,
+      "win_rate": 0.0,
+      "realized_pnl": -0.828096,
+      "profit_factor": 0.0,
+      "score": 24.17
     }
-  }
+  },
+  "circuit_breaker": {
+    "paused_until": null,
+    "reason": null
+  },
+  "updated_at": "2026-09-22T20:28:12.599866+00:00"
 }
