@@ -126,12 +126,12 @@
       "return_on_invested_pct": -1.172,
       "profit_factor": 0.0,
       "score": 18.83,
-      "avg_holding_hours": 0.36
+      "avg_holding_hours": 0.65
     }
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-09-22T20:42:17.520198+00:00"
+  "updated_at": "2026-09-22T20:48:22.303035+00:00"
 }
