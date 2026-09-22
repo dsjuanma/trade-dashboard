@@ -98,13 +98,16 @@
       "wins": 0,
       "win_rate": 0.0,
       "realized_pnl": -0.828096,
+      "invested": 75.0,
+      "return_on_invested_pct": -1.104,
       "profit_factor": 0.0,
-      "score": 24.17
+      "score": 18.9,
+      "avg_holding_hours": 0.03
     }
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-09-22T20:30:25.018971+00:00"
+  "updated_at": "2026-09-22T20:31:16.615933+00:00"
 }
