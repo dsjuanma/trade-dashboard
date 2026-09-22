@@ -1,8 +1,8 @@
 {
   "initial_cash": 1000,
-  "cash": 947.2542232382514,
-  "realized_pnl": -2.775961157652078,
-  "total_fees": 0.6245185504517518,
+  "cash": 971.360189611948,
+  "realized_pnl": -3.669994783955358,
+  "total_fees": 0.6849345062755531,
   "positions": [
     {
       "symbol": "ARM",
@@ -21,15 +21,6 @@
       "buys": 1,
       "source_wallet": "wallet-db34596b15",
       "position_id": "position-2931a9469fa7"
-    },
-    {
-      "symbol": "DOGE",
-      "quantity": 244.2250781248984,
-      "cost": 25,
-      "avg_price": 0.1023645900410556,
-      "buys": 1,
-      "source_wallet": "wallet-db34596b15",
-      "position_id": "position-00f9e74404b3"
     }
   ],
   "trades": [
@@ -212,20 +203,32 @@
       "pnl": null,
       "slippage_pct": 0.006611345698422633,
       "source_wallet": "wallet-db34596b15"
+    },
+    {
+      "time": "2026-09-22T23:29:51.403545+00:00",
+      "side": "SELL",
+      "symbol": "DOGE",
+      "execution_price": 0.09895127279747112,
+      "quantity": 244.2250781248984,
+      "usd": 24.10596637369672,
+      "fee": 0.0604159558238013,
+      "pnl": -0.8940336263032798,
+      "slippage_pct": 0.022717260866163137,
+      "source_wallet": "wallet-db34596b15"
     }
   ],
   "wallet_metrics": {
     "wallet-db34596b15": {
-      "trades": 15,
-      "closed_trades": 8,
+      "trades": 16,
+      "closed_trades": 9,
       "wins": 0,
       "win_rate": 0.0,
-      "realized_pnl": -2.775961,
+      "realized_pnl": -3.669995,
       "invested": 151.153281,
-      "return_on_invested_pct": -1.837,
+      "return_on_invested_pct": -2.428,
       "profit_factor": 0.0,
-      "score": 18.16,
-      "avg_holding_hours": 1.59
+      "score": 17.57,
+      "avg_holding_hours": 0.87
     }
   },
   "markout_metrics": {
@@ -268,7 +271,7 @@
     {
       "status": "COPIED",
       "reason": "executed",
-      "count": 1
+      "count": 2
     },
     {
       "status": "REJECTED",
@@ -282,18 +285,18 @@
     }
   ],
   "operations": {
-    "tx_new": 0,
-    "signals": 0,
-    "copied": 0,
+    "tx_new": 1,
+    "signals": 1,
+    "copied": 1,
     "rejected": 0,
     "ignored": 0,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-09-22T23:29:26.308837+00:00"
+    "last_cycle": "2026-09-22T23:29:55.943223+00:00"
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-09-22T23:29:26.309717+00:00"
+  "updated_at": "2026-09-22T23:29:55.943985+00:00"
 }
