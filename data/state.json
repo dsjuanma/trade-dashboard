@@ -1,9 +1,9 @@
 {
   "created_at": "2026-09-22T16:44:51.248384+00:00",
   "initial_cash": 1000,
-  "cash": 975,
+  "cash": 950,
   "realized_pnl": 0,
-  "total_fees": 0.0625,
+  "total_fees": 0.125,
   "positions": {
     "BtTCqA8XwG6swdb3tRrBBDxcBstmCEKQWbjHQza9tWBz:Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8": {
       "token": "Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8",
@@ -11,6 +11,15 @@
       "quantity": 0.16144518612377542,
       "cost": 25,
       "avg_price": 154.85131889180772,
+      "source_wallet": "BtTCqA8XwG6swdb3tRrBBDxcBstmCEKQWbjHQza9tWBz",
+      "buys": 1
+    },
+    "BtTCqA8XwG6swdb3tRrBBDxcBstmCEKQWbjHQza9tWBz:C1MHyoTJpRTeS9AQCyspNVu2EWAYCZwmJ1jNkEArFP1f": {
+      "token": "C1MHyoTJpRTeS9AQCyspNVu2EWAYCZwmJ1jNkEArFP1f",
+      "symbol": "APE",
+      "quantity": 154.07357592187591,
+      "cost": 25,
+      "avg_price": 0.1622601400039967,
       "source_wallet": "BtTCqA8XwG6swdb3tRrBBDxcBstmCEKQWbjHQza9tWBz",
       "buys": 1
     }
@@ -27,6 +36,33 @@
       "usd": 25,
       "fee": 0.0625,
       "source_wallet": "BtTCqA8XwG6swdb3tRrBBDxcBstmCEKQWbjHQza9tWBz"
+    },
+    {
+      "time": "2026-09-22T19:32:35.815260+00:00",
+      "side": "BUY",
+      "token": "C1MHyoTJpRTeS9AQCyspNVu2EWAYCZwmJ1jNkEArFP1f",
+      "symbol": "APE",
+      "market_price": 0.16104924343680269,
+      "execution_price": 0.1618544896539867,
+      "quantity": 154.07357592187591,
+      "usd": 25,
+      "fee": 0.0625,
+      "source_wallet": "BtTCqA8XwG6swdb3tRrBBDxcBstmCEKQWbjHQza9tWBz"
     }
-  ]
+  ],
+  "analytics": {
+    "peak_equity": 1000.0,
+    "max_drawdown_pct": 0.07464963983097732,
+    "last_mark_at": "2026-09-22T19:32:42.768868+00:00",
+    "last_prices": {
+      "Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8": {
+        "price": 153.6098826141981,
+        "marked_at": "2026-09-22T19:32:42.768868+00:00"
+      },
+      "C1MHyoTJpRTeS9AQCyspNVu2EWAYCZwmJ1jNkEArFP1f": {
+        "price": 0.15871590807361538,
+        "marked_at": "2026-09-22T19:32:42.768868+00:00"
+      }
+    }
+  }
 }
