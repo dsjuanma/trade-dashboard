@@ -228,7 +228,19 @@
       "avg_holding_hours": 1.59
     }
   },
-  "markout_metrics": {},
+  "markout_metrics": {
+    "wallet-db34596b15": {
+      "60": {
+        "samples": 1,
+        "effective_samples": 1,
+        "avg_net_return_pct": -1.3094,
+        "ci_low_net_return_pct": null,
+        "ci_high_net_return_pct": null,
+        "hit_rate_pct": 0.0,
+        "avg_latency_seconds": 13.21
+      }
+    }
+  },
   "decision_metrics": [
     {
       "status": "IGNORED",
@@ -254,11 +266,11 @@
     "ignored": 0,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-09-22T23:06:52.597295+00:00"
+    "last_cycle": "2026-09-22T23:07:07.199604+00:00"
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-09-22T23:06:52.598034+00:00"
+  "updated_at": "2026-09-22T23:07:07.200754+00:00"
 }
