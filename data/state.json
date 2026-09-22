@@ -223,11 +223,11 @@
     "ignored": 0,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-09-22T22:24:46.618930+00:00"
+    "last_cycle": "2026-09-22T22:25:13.252725+00:00"
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-09-22T22:24:46.619516+00:00"
+  "updated_at": "2026-09-22T22:25:13.253863+00:00"
 }
