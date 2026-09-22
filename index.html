@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CopyTrader Paper Dashboard</title>
+<style>
+:root{font-family:Inter,system-ui,sans-serif;color-scheme:dark;background:#090d14;color:#e8edf5}
+*{box-sizing:border-box}body{margin:0;padding:28px;max-width:1200px;margin:auto}
+header{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px}.status{color:#67e8a5}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.card{background:#111827;border:1px solid #253047;border-radius:16px;padding:18px}
+.big{font-size:28px;font-weight:750;margin-top:6px}.muted{color:#8d9ab0;font-size:13px}
+section{margin-top:18px}.wide{grid-column:1/-1}table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:11px;border-bottom:1px solid #253047;font-size:14px}
+.buy{color:#67e8a5}.sell{color:#fca5a5}.wallet{font-family:monospace}.pill{padding:4px 8px;border-radius:999px;background:#183229;color:#67e8a5;font-size:12px}
+@media(max-width:800px){.grid{grid-template-columns:1fr 1fr}}@media(max-width:500px){.grid{grid-template-columns:1fr}body{padding:16px}}
+</style>
+</head>
+<body>
+<header><div><h1 style="margin:0">CopyTrader</h1><div class="muted">Forward paper trading · Solana</div></div><span class="pill">● PAPER ONLY</span></header>
+<div class="grid">
+ <div class="card"><div class="muted">Capital inicial</div><div class="big" id="initial">—</div></div>
+ <div class="card"><div class="muted">Cash</div><div class="big" id="cash">—</div></div>
+ <div class="card"><div class="muted">Exposición</div><div class="big" id="exposure">—</div></div>
+ <div class="card"><div class="muted">PnL realizado</div><div class="big" id="pnl">—</div></div>
+</div>
+<section class="card"><h2>Posiciones abiertas</h2><div id="positions"></div></section>
+<section class="card"><h2>Operaciones paper</h2><div id="trades"></div></section>
+<div class="muted" style="margin-top:14px">Última actualización: <span id="updated">—</span> · Los valores son simulados y no representan fondos reales.</div>
+<script>
+const money=n=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD'}).format(Number(n||0));
+const short=s=>s?String(s).slice(0,6)+'…'+String(s).slice(-4):'—';
+async function load(){
+ try{
+  const [s,c]=await Promise.all([fetch('data/state.json?'+Date.now()),fetch('data/cycles.jsonl?'+Date.now())]);
+  const state=await s.json(); const cycles=(await c.text()).trim().split('\n').filter(Boolean).map(JSON.parse); const last=cycles.at(-1)||{};
+  const positions=Object.values(state.positions||{});
+  document.querySelector('#initial').textContent=money(state.initial_cash);
+  document.querySelector('#cash').textContent=money(state.cash);
+  document.querySelector('#exposure').textContent=money(positions.reduce((a,p)=>a+Number(p.cost||0),0));
+  document.querySelector('#pnl').textContent=money(state.realized_pnl);
+  document.querySelector('#updated').textContent=last.time?new Date(last.time).toLocaleString():'—';
+  document.querySelector('#positions').innerHTML=positions.length?'<table><tr><th>Token</th><th>Wallet</th><th>Costo</th><th>Cantidad</th><th>Precio prom.</th></tr>'+positions.map(p=>'<tr><td>'+p.symbol+'</td><td class="wallet">'+short(p.source_wallet)+'</td><td>'+money(p.cost)+'</td><td>'+Number(p.quantity).toFixed(6)+'</td><td>'+money(p.avg_price)+'</td></tr>').join('')+'</table>':'<div class="muted">Sin posiciones abiertas.</div>';
+  const trades=[...(state.trades||[])].reverse();
+  document.querySelector('#trades').innerHTML=trades.length?'<table><tr><th>Hora</th><th>Acción</th><th>Token</th><th>Wallet</th><th>USD</th><th>Precio ejecución</th><th>Fee</th></tr>'+trades.map(t=>'<tr><td>'+new Date(t.time).toLocaleString()+'</td><td class="'+String(t.side).toLowerCase()+'">'+t.side+'</td><td>'+t.symbol+'</td><td class="wallet">'+short(t.source_wallet)+'</td><td>'+money(t.usd)+'</td><td>'+money(t.execution_price)+'</td><td>'+money(t.fee)+'</td></tr>').join('')+'</table>':'<div class="muted">Todavía no hay operaciones.</div>';
+ }catch(e){document.querySelector('#updated').textContent='No se pudieron cargar los datos: '+e.message}
+}
+load(); setInterval(load,60000);
+</script>
+</body></html>
