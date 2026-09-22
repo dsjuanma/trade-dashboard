@@ -10,7 +10,8 @@
       "cost": 24.44613815268527,
       "avg_price": 154.85131889180775,
       "buys": 1,
-      "source_wallet": "wallet-db34596b15"
+      "source_wallet": "wallet-db34596b15",
+      "position_id": "position-615536f02b92"
     },
     {
       "symbol": "ARM",
@@ -18,7 +19,8 @@
       "cost": 0.09760043860298495,
       "avg_price": 339.6779267052967,
       "buys": 1,
-      "source_wallet": "wallet-db34596b15"
+      "source_wallet": "wallet-db34596b15",
+      "position_id": "position-80dd6fa6a430"
     },
     {
       "symbol": "JTO",
@@ -26,7 +28,8 @@
       "cost": 24.872215165493664,
       "avg_price": 0.5337351841516478,
       "buys": 1,
-      "source_wallet": "wallet-db34596b15"
+      "source_wallet": "wallet-db34596b15",
+      "position_id": "position-2931a9469fa7"
     }
   ],
   "trades": [
@@ -205,5 +208,5 @@
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-09-22T21:31:57.123530+00:00"
+  "updated_at": "2026-09-22T21:32:59.335100+00:00"
 }
