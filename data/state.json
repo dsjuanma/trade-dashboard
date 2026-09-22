@@ -208,20 +208,26 @@
     }
   },
   "markout_metrics": {},
-  "decision_metrics": [],
+  "decision_metrics": [
+    {
+      "status": "IGNORED",
+      "reason": "no_observed_entry",
+      "count": 1
+    }
+  ],
   "operations": {
-    "tx_new": 0,
-    "signals": 0,
+    "tx_new": 1,
+    "signals": 1,
     "copied": 0,
     "rejected": 0,
-    "ignored": 0,
+    "ignored": 1,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-09-22T22:13:13.343661+00:00"
+    "last_cycle": "2026-09-22T22:14:06.037887+00:00"
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-09-22T22:13:13.344295+00:00"
+  "updated_at": "2026-09-22T22:14:06.038892+00:00"
 }
