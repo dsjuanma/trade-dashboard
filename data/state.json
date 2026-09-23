@@ -321,12 +321,12 @@
     "rejected": 0,
     "ignored": 0,
     "api_errors": 5,
-    "valuation_complete": true,
-    "last_cycle": "2026-09-23T00:38:04.684235+00:00"
+    "valuation_complete": false,
+    "last_cycle": "2026-09-23T00:38:56.252293+00:00"
   },
   "circuit_breaker": {
-    "paused_until": "2026-09-23T00:53:04.656556+00:00",
-    "reason": "api_errors"
+    "paused_until": "2026-09-23T00:53:56.248788+00:00",
+    "reason": "stale_prices"
   },
-  "updated_at": "2026-09-23T00:38:04.685552+00:00"
+  "updated_at": "2026-09-23T00:38:56.253598+00:00"
 }
