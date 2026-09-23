@@ -282,13 +282,13 @@
         "avg_latency_seconds": 17.96
       },
       "3600": {
-        "samples": 2,
-        "effective_samples": 1,
-        "avg_net_return_pct": -2.5656,
-        "ci_low_net_return_pct": -4.1718,
-        "ci_high_net_return_pct": -0.9593,
+        "samples": 3,
+        "effective_samples": 2,
+        "avg_net_return_pct": -2.1781,
+        "ci_low_net_return_pct": -3.3768,
+        "ci_high_net_return_pct": -0.9793,
         "hit_rate_pct": 0.0,
-        "avg_latency_seconds": 14.66
+        "avg_latency_seconds": 17.96
       }
     }
   },
@@ -322,11 +322,11 @@
     "ignored": 0,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-09-23T00:31:39.553538+00:00"
+    "last_cycle": "2026-09-23T00:32:04.270991+00:00"
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-09-23T00:31:39.554655+00:00"
+  "updated_at": "2026-09-23T00:32:04.272038+00:00"
 }
