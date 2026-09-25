@@ -322,11 +322,11 @@
     "ignored": 0,
     "api_errors": 5,
     "valuation_complete": false,
-    "last_cycle": "2026-09-25T04:05:15.810157+00:00"
+    "last_cycle": "2026-09-25T04:05:50.627862+00:00"
   },
   "circuit_breaker": {
-    "paused_until": "2026-09-25T04:20:15.809209+00:00",
+    "paused_until": "2026-09-25T04:20:50.626958+00:00",
     "reason": "stale_prices"
   },
-  "updated_at": "2026-09-25T04:05:15.828839+00:00"
+  "updated_at": "2026-09-25T04:05:50.647870+00:00"
 }
