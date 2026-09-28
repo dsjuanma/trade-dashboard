@@ -284,11 +284,11 @@
     "ignored": 0,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-09-28T14:59:29.632352+00:00"
+    "last_cycle": "2026-09-28T15:01:00.494337+00:00"
   },
   "circuit_breaker": {
     "paused_until": "2026-09-28T15:13:58.636420+00:00",
     "reason": "stale_prices"
   },
-  "updated_at": "2026-09-28T14:59:29.655217+00:00"
+  "updated_at": "2026-09-28T15:01:00.511473+00:00"
 }
