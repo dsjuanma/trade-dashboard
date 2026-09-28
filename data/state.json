@@ -276,6 +276,98 @@
       "count": 1
     }
   ],
+  "analytics": {
+    "strategy_version": "copytrader-paper-v3-helius-dexscreener",
+    "windows": {
+      "24h": {
+        "total": 0,
+        "statuses": {},
+        "reasons": {},
+        "wallets": {}
+      },
+      "7d": {
+        "total": 0,
+        "statuses": {},
+        "reasons": {},
+        "wallets": {}
+      }
+    },
+    "execution": {
+      "window": "7d",
+      "samples": 0,
+      "slippage_pct": {
+        "p50": null,
+        "p90": null,
+        "p95": null
+      },
+      "detection_latency_seconds": {
+        "p50": null,
+        "p90": null,
+        "p95": null
+      },
+      "quote_latency_seconds": {
+        "p50": null,
+        "p90": null,
+        "p95": null
+      }
+    },
+    "cohorts": [
+      {
+        "strategy_version": "legacy",
+        "decisions": 9,
+        "first_at": 1790115242.077852,
+        "last_at": 1790120031.755938,
+        "copied": 3,
+        "rejected": 2,
+        "ignored": 4
+      }
+    ]
+  },
+  "valuation": {
+    "valuation_complete": true,
+    "market_value": 51.345995,
+    "unrealized_pnl": 1.376179,
+    "equity": 997.706184,
+    "total_pnl": -2.293816,
+    "return_pct": -0.2294,
+    "peak_equity": 1000.0,
+    "max_drawdown_pct": 0.4411,
+    "marked_at": "2026-09-28T18:21:43.289606+00:00",
+    "positions_marked": [
+      {
+        "symbol": "ARM",
+        "current_price": 284.12,
+        "market_value": 0.08163685195811599,
+        "unrealized_pnl": -0.015963586644868966,
+        "position_id": "position-80dd6fa6a430"
+      },
+      {
+        "symbol": "JTO",
+        "current_price": 0.5645,
+        "market_value": 26.30586455198342,
+        "unrealized_pnl": 1.4336493864897548,
+        "position_id": "position-2931a9469fa7"
+      },
+      {
+        "symbol": "NVDAx",
+        "current_price": 230.61,
+        "market_value": 24.9584933349972,
+        "unrealized_pnl": -0.041506665002799537,
+        "position_id": "position-905a5620934a"
+      }
+    ],
+    "wallets": {
+      "wallet-db34596b15": {
+        "realized_pnl": -3.669995,
+        "unrealized_pnl": 1.376179,
+        "market_value": 51.345995,
+        "open_cost": 49.969816,
+        "open_positions": 3,
+        "trades": 17,
+        "total_pnl": -2.293816
+      }
+    }
+  },
   "operations": {
     "tx_new": 0,
     "signals": 0,
@@ -284,11 +376,11 @@
     "ignored": 0,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-09-28T15:14:30.489820+00:00"
+    "last_cycle": "2026-09-28T18:21:43.343125+00:00"
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-09-28T15:14:30.506951+00:00"
+  "updated_at": "2026-09-28T18:21:43.367637+00:00"
 }
