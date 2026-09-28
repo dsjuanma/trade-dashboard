@@ -325,14 +325,14 @@
   },
   "valuation": {
     "valuation_complete": true,
-    "market_value": 50.939671,
-    "unrealized_pnl": 0.969855,
-    "equity": 997.29986,
-    "total_pnl": -2.70014,
-    "return_pct": -0.27,
+    "market_value": 50.987022,
+    "unrealized_pnl": 1.017207,
+    "equity": 997.347212,
+    "total_pnl": -2.652788,
+    "return_pct": -0.2653,
     "peak_equity": 1000.0,
     "max_drawdown_pct": 0.4411,
-    "marked_at": "2026-09-28T21:27:36.676225+00:00",
+    "marked_at": "2026-09-28T21:43:10.679032+00:00",
     "positions_marked": [
       {
         "symbol": "ARM",
@@ -343,28 +343,28 @@
       },
       {
         "symbol": "JTO",
-        "current_price": 0.5588,
-        "market_value": 26.04024289043106,
-        "unrealized_pnl": 1.1680277249373958,
+        "current_price": 0.5597,
+        "market_value": 26.082183152781433,
+        "unrealized_pnl": 1.2099679872877687,
         "position_id": "position-2931a9469fa7"
       },
       {
         "symbol": "NVDAx",
-        "current_price": 229.31,
-        "market_value": 24.817796741894142,
-        "unrealized_pnl": -0.1822032581058579,
+        "current_price": 229.36,
+        "market_value": 24.823208149321182,
+        "unrealized_pnl": -0.17679185067881775,
         "position_id": "position-905a5620934a"
       }
     ],
     "wallets": {
       "wallet-db34596b15": {
         "realized_pnl": -3.669995,
-        "unrealized_pnl": 0.969855,
-        "market_value": 50.939671,
+        "unrealized_pnl": 1.017207,
+        "market_value": 50.987022,
         "open_cost": 49.969816,
         "open_positions": 3,
         "trades": 17,
-        "total_pnl": -2.70014
+        "total_pnl": -2.652788
       }
     }
   },
@@ -376,11 +376,11 @@
     "ignored": 0,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-09-28T21:27:36.705260+00:00"
+    "last_cycle": "2026-09-28T21:43:10.735669+00:00"
   },
   "circuit_breaker": {
-    "paused_until": "2026-09-28T21:27:30.458188+00:00",
-    "reason": "stale_prices"
+    "paused_until": null,
+    "reason": null
   },
-  "updated_at": "2026-09-28T21:27:36.722999+00:00"
+  "updated_at": "2026-09-28T21:43:10.752953+00:00"
 }
