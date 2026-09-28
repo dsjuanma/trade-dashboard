@@ -283,12 +283,12 @@
     "rejected": 0,
     "ignored": 0,
     "api_errors": 0,
-    "valuation_complete": false,
-    "last_cycle": "2026-09-28T14:56:00.439433+00:00"
+    "valuation_complete": true,
+    "last_cycle": "2026-09-28T14:59:29.632352+00:00"
   },
   "circuit_breaker": {
-    "paused_until": "2026-09-28T15:11:00.425505+00:00",
+    "paused_until": "2026-09-28T15:13:58.636420+00:00",
     "reason": "stale_prices"
   },
-  "updated_at": "2026-09-28T14:56:00.458840+00:00"
+  "updated_at": "2026-09-28T14:59:29.655217+00:00"
 }
