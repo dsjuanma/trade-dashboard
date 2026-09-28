@@ -1,5 +1,5 @@
 {
-  "strategy_version": "copytrader-paper-v2",
+  "strategy_version": "copytrader-paper-v3-helius-dexscreener",
   "initial_cash": 1000,
   "cash": 946.360189611948,
   "realized_pnl": -3.669994783955358,
@@ -282,13 +282,13 @@
     "copied": 0,
     "rejected": 0,
     "ignored": 0,
-    "api_errors": 5,
+    "api_errors": 0,
     "valuation_complete": false,
-    "last_cycle": "2026-09-28T14:11:15.996328+00:00"
+    "last_cycle": "2026-09-28T14:56:00.439433+00:00"
   },
   "circuit_breaker": {
-    "paused_until": "2026-09-28T14:26:15.995191+00:00",
-    "reason": "api_errors"
+    "paused_until": "2026-09-28T15:11:00.425505+00:00",
+    "reason": "stale_prices"
   },
-  "updated_at": "2026-09-28T14:11:16.014188+00:00"
+  "updated_at": "2026-09-28T14:56:00.458840+00:00"
 }
