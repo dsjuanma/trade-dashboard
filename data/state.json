@@ -1,4 +1,5 @@
 {
+  "strategy_version": "copytrader-paper-v2",
   "initial_cash": 1000,
   "cash": 946.360189611948,
   "realized_pnl": -3.669994783955358,
@@ -241,7 +242,7 @@
   "wallet_metrics": {
     "wallet-db34596b15": {
       "trades": 17,
-      "closed_trades": 9,
+      "closed_trades": 3,
       "wins": 0,
       "win_rate": 0.0,
       "realized_pnl": -3.669995,
@@ -252,46 +253,7 @@
       "avg_holding_hours": 0.87
     }
   },
-  "markout_metrics": {
-    "wallet-db34596b15": {
-      "60": {
-        "samples": 3,
-        "effective_samples": 2,
-        "avg_net_return_pct": -1.9458,
-        "ci_low_net_return_pct": -3.0977,
-        "ci_high_net_return_pct": -0.794,
-        "hit_rate_pct": 0.0,
-        "avg_latency_seconds": 17.96
-      },
-      "300": {
-        "samples": 3,
-        "effective_samples": 2,
-        "avg_net_return_pct": -1.8712,
-        "ci_low_net_return_pct": -2.9999,
-        "ci_high_net_return_pct": -0.7425,
-        "hit_rate_pct": 0.0,
-        "avg_latency_seconds": 17.96
-      },
-      "900": {
-        "samples": 3,
-        "effective_samples": 2,
-        "avg_net_return_pct": -1.9081,
-        "ci_low_net_return_pct": -2.9263,
-        "ci_high_net_return_pct": -0.8899,
-        "hit_rate_pct": 0.0,
-        "avg_latency_seconds": 17.96
-      },
-      "3600": {
-        "samples": 3,
-        "effective_samples": 2,
-        "avg_net_return_pct": -2.1781,
-        "ci_low_net_return_pct": -3.3768,
-        "ci_high_net_return_pct": -0.9793,
-        "hit_rate_pct": 0.0,
-        "avg_latency_seconds": 17.96
-      }
-    }
-  },
+  "markout_metrics": {},
   "decision_metrics": [
     {
       "status": "IGNORED",
@@ -322,11 +284,11 @@
     "ignored": 0,
     "api_errors": 5,
     "valuation_complete": false,
-    "last_cycle": "2026-09-28T13:30:37.444099+00:00"
+    "last_cycle": "2026-09-28T14:11:15.996328+00:00"
   },
   "circuit_breaker": {
-    "paused_until": "2026-09-28T13:45:37.443113+00:00",
-    "reason": "stale_prices"
+    "paused_until": "2026-09-28T14:26:15.995191+00:00",
+    "reason": "api_errors"
   },
-  "updated_at": "2026-09-28T13:30:37.463282+00:00"
+  "updated_at": "2026-09-28T14:11:16.014188+00:00"
 }
