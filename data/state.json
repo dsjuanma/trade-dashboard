@@ -325,14 +325,14 @@
   },
   "valuation": {
     "valuation_complete": true,
-    "market_value": 50.168653,
-    "unrealized_pnl": 0.198837,
-    "equity": 996.528842,
-    "total_pnl": -3.471158,
-    "return_pct": -0.3471,
+    "market_value": 49.977592,
+    "unrealized_pnl": 0.007776,
+    "equity": 996.337781,
+    "total_pnl": -3.662219,
+    "return_pct": -0.3662,
     "peak_equity": 1000.0,
     "max_drawdown_pct": 0.444,
-    "marked_at": "2026-10-01T07:52:11.071864+00:00",
+    "marked_at": "2026-10-01T08:07:24.269677+00:00",
     "positions_marked": [
       {
         "symbol": "ARM",
@@ -343,9 +343,9 @@
       },
       {
         "symbol": "JTO",
-        "current_price": 0.5392,
-        "market_value": 25.12687717702296,
-        "unrealized_pnl": 0.2546620115292946,
+        "current_price": 0.5351,
+        "market_value": 24.935815981871265,
+        "unrealized_pnl": 0.06360081637760118,
         "position_id": "position-2931a9469fa7"
       },
       {
@@ -359,12 +359,12 @@
     "wallets": {
       "wallet-db34596b15": {
         "realized_pnl": -3.669995,
-        "unrealized_pnl": 0.198837,
-        "market_value": 50.168653,
+        "unrealized_pnl": 0.007776,
+        "market_value": 49.977592,
         "open_cost": 49.969816,
         "open_positions": 3,
         "trades": 17,
-        "total_pnl": -3.471158
+        "total_pnl": -3.662219
       }
     }
   },
@@ -376,11 +376,11 @@
     "ignored": 0,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-10-01T07:52:11.091323+00:00"
+    "last_cycle": "2026-10-01T08:07:24.318189+00:00"
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-10-01T07:52:11.108739+00:00"
+  "updated_at": "2026-10-01T08:07:24.336654+00:00"
 }
