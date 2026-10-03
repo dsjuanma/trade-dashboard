@@ -325,46 +325,46 @@
   },
   "valuation": {
     "valuation_complete": true,
-    "market_value": 49.82971,
-    "unrealized_pnl": -0.140106,
-    "equity": 996.189899,
-    "total_pnl": -3.810101,
-    "return_pct": -0.381,
+    "market_value": 49.884661,
+    "unrealized_pnl": -0.085155,
+    "equity": 996.244851,
+    "total_pnl": -3.755149,
+    "return_pct": -0.3755,
     "peak_equity": 1000.0,
     "max_drawdown_pct": 0.4884,
-    "marked_at": "2026-10-03T08:35:47.752732+00:00",
+    "marked_at": "2026-10-03T08:51:33.432770+00:00",
     "positions_marked": [
       {
         "symbol": "ARM",
-        "current_price": 303.016,
-        "market_value": 0.08706628302456876,
-        "unrealized_pnl": -0.010534155578416193,
+        "current_price": 303.099,
+        "market_value": 0.08709013160514219,
+        "unrealized_pnl": -0.010510306997842764,
         "position_id": "position-80dd6fa6a430"
       },
       {
         "symbol": "JTO",
-        "current_price": 0.5223,
-        "market_value": 24.33933225066597,
-        "unrealized_pnl": -0.5328829148276952,
+        "current_price": 0.5232,
+        "market_value": 24.38127251301634,
+        "unrealized_pnl": -0.4909426524773224,
         "position_id": "position-2931a9469fa7"
       },
       {
         "symbol": "NVDAx",
-        "current_price": 234.72,
-        "market_value": 25.403311025499946,
-        "unrealized_pnl": 0.4033110254999457,
+        "current_price": 234.84,
+        "market_value": 25.416298403324845,
+        "unrealized_pnl": 0.4162984033248449,
         "position_id": "position-905a5620934a"
       }
     ],
     "wallets": {
       "wallet-db34596b15": {
         "realized_pnl": -3.669995,
-        "unrealized_pnl": -0.140106,
-        "market_value": 49.82971,
+        "unrealized_pnl": -0.085155,
+        "market_value": 49.884661,
         "open_cost": 49.969816,
         "open_positions": 3,
         "trades": 17,
-        "total_pnl": -3.810101
+        "total_pnl": -3.755149
       }
     }
   },
@@ -376,11 +376,11 @@
     "ignored": 0,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-10-03T08:35:47.770432+00:00"
+    "last_cycle": "2026-10-03T08:51:33.438620+00:00"
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-10-03T08:35:47.793481+00:00"
+  "updated_at": "2026-10-03T08:51:33.459244+00:00"
 }
