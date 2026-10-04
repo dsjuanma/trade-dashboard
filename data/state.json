@@ -325,14 +325,14 @@
   },
   "valuation": {
     "valuation_complete": true,
-    "market_value": 51.662147,
-    "unrealized_pnl": 1.692332,
-    "equity": 998.022337,
-    "total_pnl": -1.977663,
-    "return_pct": -0.1978,
+    "market_value": 51.688141,
+    "unrealized_pnl": 1.718325,
+    "equity": 998.04833,
+    "total_pnl": -1.95167,
+    "return_pct": -0.1952,
     "peak_equity": 128686.567682,
     "max_drawdown_pct": 99.2247,
-    "marked_at": "2026-10-04T05:13:32.605546+00:00",
+    "marked_at": "2026-10-04T05:28:48.196668+00:00",
     "positions_marked": [
       {
         "symbol": "ARM",
@@ -343,28 +343,28 @@
       },
       {
         "symbol": "JTO",
-        "current_price": 0.5612,
-        "market_value": 26.152083590032056,
-        "unrealized_pnl": 1.2798684245383924,
+        "current_price": 0.5615,
+        "market_value": 26.166063677482178,
+        "unrealized_pnl": 1.2938485119885144,
         "position_id": "position-2931a9469fa7"
       },
       {
         "symbol": "NVDAx",
-        "current_price": 234.9,
-        "market_value": 25.422792092237295,
-        "unrealized_pnl": 0.4227920922372945,
+        "current_price": 235.011,
+        "market_value": 25.434805416725325,
+        "unrealized_pnl": 0.43480541672532524,
         "position_id": "position-905a5620934a"
       }
     ],
     "wallets": {
       "wallet-db34596b15": {
         "realized_pnl": -3.669995,
-        "unrealized_pnl": 1.692332,
-        "market_value": 51.662147,
+        "unrealized_pnl": 1.718325,
+        "market_value": 51.688141,
         "open_cost": 49.969816,
         "open_positions": 3,
         "trades": 17,
-        "total_pnl": -1.977663
+        "total_pnl": -1.95167
       }
     }
   },
@@ -376,11 +376,11 @@
     "ignored": 0,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-10-04T05:13:32.624329+00:00"
+    "last_cycle": "2026-10-04T05:28:48.215470+00:00"
   },
   "circuit_breaker": {
-    "paused_until": "2026-10-04T05:28:32.624063+00:00",
+    "paused_until": "2026-10-04T05:43:48.215146+00:00",
     "reason": "max_drawdown"
   },
-  "updated_at": "2026-10-04T05:13:32.647173+00:00"
+  "updated_at": "2026-10-04T05:28:48.246021+00:00"
 }
