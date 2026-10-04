@@ -325,14 +325,14 @@
   },
   "valuation": {
     "valuation_complete": true,
-    "market_value": 51.755021,
-    "unrealized_pnl": 1.785205,
-    "equity": 998.11521,
-    "total_pnl": -1.88479,
-    "return_pct": -0.1885,
+    "market_value": 51.915474,
+    "unrealized_pnl": 1.945659,
+    "equity": 998.275664,
+    "total_pnl": -1.724336,
+    "return_pct": -0.1724,
     "peak_equity": 1000.0,
     "max_drawdown_pct": 1.6167,
-    "marked_at": "2026-10-04T22:00:42.098426+00:00",
+    "marked_at": "2026-10-04T22:20:40.169206+00:00",
     "positions_marked": [
       {
         "symbol": "ARM",
@@ -343,28 +343,28 @@
       },
       {
         "symbol": "JTO",
-        "current_price": 0.5621,
-        "market_value": 26.19402385238243,
-        "unrealized_pnl": 1.3218086868887653,
+        "current_price": 0.5648,
+        "market_value": 26.31984463943354,
+        "unrealized_pnl": 1.4476294739398767,
         "position_id": "position-2931a9469fa7"
       },
       {
         "symbol": "NVDAx",
-        "current_price": 235.37,
-        "market_value": 25.47365932205148,
-        "unrealized_pnl": 0.4736593220514784,
+        "current_price": 235.69,
+        "market_value": 25.50829232958454,
+        "unrealized_pnl": 0.5082923295845383,
         "position_id": "position-905a5620934a"
       }
     ],
     "wallets": {
       "wallet-db34596b15": {
         "realized_pnl": -3.669995,
-        "unrealized_pnl": 1.785205,
-        "market_value": 51.755021,
+        "unrealized_pnl": 1.945659,
+        "market_value": 51.915474,
         "open_cost": 49.969816,
         "open_positions": 3,
         "trades": 17,
-        "total_pnl": -1.88479
+        "total_pnl": -1.724336
       }
     }
   },
@@ -376,11 +376,11 @@
     "ignored": 0,
     "api_errors": 4,
     "valuation_complete": true,
-    "last_cycle": "2026-10-04T22:00:42.111708+00:00"
+    "last_cycle": "2026-10-04T22:20:40.194488+00:00"
   },
   "circuit_breaker": {
-    "paused_until": "2026-10-04T22:15:42.111152+00:00",
+    "paused_until": "2026-10-04T22:35:40.193996+00:00",
     "reason": "api_errors"
   },
-  "updated_at": "2026-10-04T22:00:42.138040+00:00"
+  "updated_at": "2026-10-04T22:20:40.213386+00:00"
 }
