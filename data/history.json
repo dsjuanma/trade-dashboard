@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T19:45:38.795371+00:00",
+  "generated_at": "2026-10-04T20:05:38.624153+00:00",
   "strategy_version": "copytrader-paper-v3-helius-dexscreener",
   "points": [
     {
@@ -12460,6 +12460,34 @@
       "equity": 998.582908,
       "total_pnl": -1.417092,
       "return_pct": -0.1417,
+      "max_drawdown_pct": 1.6167
+    },
+    {
+      "time": "2026-10-04T19:50:37.989857+00:00",
+      "equity": 998.535226,
+      "total_pnl": -1.464774,
+      "return_pct": -0.1465,
+      "max_drawdown_pct": 1.6167
+    },
+    {
+      "time": "2026-10-04T19:55:38.312945+00:00",
+      "equity": 998.525485,
+      "total_pnl": -1.474515,
+      "return_pct": -0.1475,
+      "max_drawdown_pct": 1.6167
+    },
+    {
+      "time": "2026-10-04T20:00:39.170723+00:00",
+      "equity": 998.531979,
+      "total_pnl": -1.468021,
+      "return_pct": -0.1468,
+      "max_drawdown_pct": 1.6167
+    },
+    {
+      "time": "2026-10-04T20:05:38.591062+00:00",
+      "equity": 998.525485,
+      "total_pnl": -1.474515,
+      "return_pct": -0.1475,
       "max_drawdown_pct": 1.6167
     }
   ]
