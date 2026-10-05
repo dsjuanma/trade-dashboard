@@ -1,5 +1,5 @@
 {
-  "strategy_version": "copytrader-paper-v3-helius-dexscreener",
+  "strategy_version": "copytrader-paper-v3-solana-dexscreener",
   "initial_cash": 1000,
   "cash": 946.360189611948,
   "realized_pnl": -3.669994783955358,
@@ -277,7 +277,7 @@
     }
   ],
   "analytics": {
-    "strategy_version": "copytrader-paper-v3-helius-dexscreener",
+    "strategy_version": "copytrader-paper-v3-solana-dexscreener",
     "windows": {
       "24h": {
         "total": 0,
@@ -325,14 +325,14 @@
   },
   "valuation": {
     "valuation_complete": true,
-    "market_value": 52.935082,
-    "unrealized_pnl": 2.965267,
-    "equity": 999.295272,
-    "total_pnl": -0.704728,
-    "return_pct": -0.0705,
+    "market_value": 52.819753,
+    "unrealized_pnl": 2.849938,
+    "equity": 999.179943,
+    "total_pnl": -0.820057,
+    "return_pct": -0.082,
     "peak_equity": 1000.0,
     "max_drawdown_pct": 1.6167,
-    "marked_at": "2026-10-05T20:43:59.895270+00:00",
+    "marked_at": "2026-10-05T20:58:28.074485+00:00",
     "positions_marked": [
       {
         "symbol": "ARM",
@@ -343,28 +343,28 @@
       },
       {
         "symbol": "JTO",
-        "current_price": 0.5771,
-        "market_value": 26.893028224888628,
-        "unrealized_pnl": 2.020813059394964,
+        "current_price": 0.5743,
+        "market_value": 26.762547408687475,
+        "unrealized_pnl": 1.8903322431938108,
         "position_id": "position-2931a9469fa7"
       },
       {
         "symbol": "NVDAx",
-        "current_price": 239.82,
-        "market_value": 25.9552745830581,
-        "unrealized_pnl": 0.9552745830580989,
+        "current_price": 239.96,
+        "market_value": 25.970426523853813,
+        "unrealized_pnl": 0.9704265238538134,
         "position_id": "position-905a5620934a"
       }
     ],
     "wallets": {
       "wallet-db34596b15": {
         "realized_pnl": -3.669995,
-        "unrealized_pnl": 2.965267,
-        "market_value": 52.935082,
+        "unrealized_pnl": 2.849938,
+        "market_value": 52.819753,
         "open_cost": 49.969816,
         "open_positions": 3,
         "trades": 17,
-        "total_pnl": -0.704728
+        "total_pnl": -0.820057
       }
     }
   },
@@ -376,11 +376,11 @@
     "ignored": 0,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-10-05T20:43:59.914264+00:00"
+    "last_cycle": "2026-10-05T20:58:28.092266+00:00"
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-10-05T20:43:59.932651+00:00"
+  "updated_at": "2026-10-05T20:58:28.117633+00:00"
 }
