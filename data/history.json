@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-05T20:58:28.132514+00:00",
+  "generated_at": "2026-10-05T20:59:38.542163+00:00",
   "strategy_version": "copytrader-paper-v3-solana-dexscreener",
   "points": [
     {
-      "time": "2026-10-05T20:58:28.092266+00:00",
+      "time": "2026-10-05T20:59:38.506296+00:00",
       "equity": 999.179943,
       "total_pnl": -0.820057,
       "return_pct": -0.082,
