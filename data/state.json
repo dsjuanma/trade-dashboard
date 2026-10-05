@@ -325,14 +325,14 @@
   },
   "valuation": {
     "valuation_complete": true,
-    "market_value": 52.525139,
-    "unrealized_pnl": 2.555323,
-    "equity": 998.885328,
-    "total_pnl": -1.114672,
-    "return_pct": -0.1115,
+    "market_value": 52.521892,
+    "unrealized_pnl": 2.552076,
+    "equity": 998.882081,
+    "total_pnl": -1.117919,
+    "return_pct": -0.1118,
     "peak_equity": 1000.0,
     "max_drawdown_pct": 1.6167,
-    "marked_at": "2026-10-05T12:13:04.357148+00:00",
+    "marked_at": "2026-10-05T12:28:36.552632+00:00",
     "positions_marked": [
       {
         "symbol": "ARM",
@@ -350,21 +350,21 @@
       },
       {
         "symbol": "NVDAx",
-        "current_price": 235.5,
-        "market_value": 25.487728981361784,
-        "unrealized_pnl": 0.48772898136178355,
+        "current_price": 235.47,
+        "market_value": 25.48448213690556,
+        "unrealized_pnl": 0.48448213690555875,
         "position_id": "position-905a5620934a"
       }
     ],
     "wallets": {
       "wallet-db34596b15": {
         "realized_pnl": -3.669995,
-        "unrealized_pnl": 2.555323,
-        "market_value": 52.525139,
+        "unrealized_pnl": 2.552076,
+        "market_value": 52.521892,
         "open_cost": 49.969816,
         "open_positions": 3,
         "trades": 17,
-        "total_pnl": -1.114672
+        "total_pnl": -1.117919
       }
     }
   },
@@ -376,11 +376,11 @@
     "ignored": 0,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-10-05T12:13:04.374455+00:00"
+    "last_cycle": "2026-10-05T12:28:36.600864+00:00"
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-10-05T12:13:04.393332+00:00"
+  "updated_at": "2026-10-05T12:28:36.618296+00:00"
 }
