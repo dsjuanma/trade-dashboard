@@ -1,5 +1,5 @@
 {
-  "strategy_version": "copytrader-paper-v3-solana-dexscreener",
+  "strategy_version": "copytrader-paper-v3-helius-dexscreener",
   "initial_cash": 1000,
   "cash": 946.360189611948,
   "realized_pnl": -3.669994783955358,
@@ -277,7 +277,7 @@
     }
   ],
   "analytics": {
-    "strategy_version": "copytrader-paper-v3-solana-dexscreener",
+    "strategy_version": "copytrader-paper-v3-helius-dexscreener",
     "windows": {
       "24h": {
         "total": 0,
@@ -325,14 +325,14 @@
   },
   "valuation": {
     "valuation_complete": true,
-    "market_value": 52.819753,
-    "unrealized_pnl": 2.849938,
-    "equity": 999.179943,
-    "total_pnl": -0.820057,
-    "return_pct": -0.082,
+    "market_value": 52.807848,
+    "unrealized_pnl": 2.838033,
+    "equity": 999.168038,
+    "total_pnl": -0.831962,
+    "return_pct": -0.0832,
     "peak_equity": 1000.0,
     "max_drawdown_pct": 1.6167,
-    "marked_at": "2026-10-05T20:59:38.488296+00:00",
+    "marked_at": "2026-10-05T21:00:37.608838+00:00",
     "positions_marked": [
       {
         "symbol": "ARM",
@@ -350,21 +350,21 @@
       },
       {
         "symbol": "NVDAx",
-        "current_price": 239.96,
-        "market_value": 25.970426523853813,
-        "unrealized_pnl": 0.9704265238538134,
+        "current_price": 239.85,
+        "market_value": 25.958521427514324,
+        "unrealized_pnl": 0.9585214275143237,
         "position_id": "position-905a5620934a"
       }
     ],
     "wallets": {
       "wallet-db34596b15": {
         "realized_pnl": -3.669995,
-        "unrealized_pnl": 2.849938,
-        "market_value": 52.819753,
+        "unrealized_pnl": 2.838033,
+        "market_value": 52.807848,
         "open_cost": 49.969816,
         "open_positions": 3,
         "trades": 17,
-        "total_pnl": -0.820057
+        "total_pnl": -0.831962
       }
     }
   },
@@ -376,11 +376,11 @@
     "ignored": 0,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-10-05T20:59:38.506296+00:00"
+    "last_cycle": "2026-10-05T21:00:37.627325+00:00"
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-10-05T20:59:38.528738+00:00"
+  "updated_at": "2026-10-05T21:00:37.645932+00:00"
 }
