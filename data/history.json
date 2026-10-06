@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T05:34:18.534499+00:00",
+  "generated_at": "2026-10-06T05:49:50.884724+00:00",
   "strategy_version": "copytrader-paper-v3-helius-dexscreener",
   "points": [
     {
@@ -98,34 +98,6 @@
       "equity": 996.57695,
       "total_pnl": -3.42305,
       "return_pct": -0.3423,
-      "max_drawdown_pct": 0.4411
-    },
-    {
-      "time": "2026-09-29T05:29:46.846116+00:00",
-      "equity": 996.446136,
-      "total_pnl": -3.553864,
-      "return_pct": -0.3554,
-      "max_drawdown_pct": 0.4411
-    },
-    {
-      "time": "2026-09-29T05:34:42.184718+00:00",
-      "equity": 996.434231,
-      "total_pnl": -3.565769,
-      "return_pct": -0.3566,
-      "max_drawdown_pct": 0.4411
-    },
-    {
-      "time": "2026-09-29T05:39:38.442626+00:00",
-      "equity": 996.329125,
-      "total_pnl": -3.670875,
-      "return_pct": -0.3671,
-      "max_drawdown_pct": 0.4411
-    },
-    {
-      "time": "2026-09-29T05:44:39.056243+00:00",
-      "equity": 996.329125,
-      "total_pnl": -3.670875,
-      "return_pct": -0.3671,
       "max_drawdown_pct": 0.4411
     },
     {
@@ -14192,10 +14164,31 @@
       "max_drawdown_pct": 1.6167
     },
     {
-      "time": "2026-10-06T05:34:18.499220+00:00",
-      "equity": 998.732639,
-      "total_pnl": -1.267361,
+      "time": "2026-10-06T05:34:51.081157+00:00",
+      "equity": 998.733397,
+      "total_pnl": -1.266603,
       "return_pct": -0.1267,
+      "max_drawdown_pct": 1.6167
+    },
+    {
+      "time": "2026-10-06T05:39:47.934702+00:00",
+      "equity": 998.896612,
+      "total_pnl": -1.103388,
+      "return_pct": -0.1103,
+      "max_drawdown_pct": 1.6167
+    },
+    {
+      "time": "2026-10-06T05:44:48.434222+00:00",
+      "equity": 998.930429,
+      "total_pnl": -1.069571,
+      "return_pct": -0.107,
+      "max_drawdown_pct": 1.6167
+    },
+    {
+      "time": "2026-10-06T05:49:50.844867+00:00",
+      "equity": 998.933893,
+      "total_pnl": -1.066107,
+      "return_pct": -0.1066,
       "max_drawdown_pct": 1.6167
     }
   ]
