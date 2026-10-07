@@ -324,47 +324,47 @@
     ]
   },
   "valuation": {
-    "valuation_complete": true,
-    "market_value": 49.7995,
-    "unrealized_pnl": -0.170316,
-    "equity": 996.15969,
-    "total_pnl": -3.84031,
-    "return_pct": -0.384,
+    "valuation_complete": false,
+    "market_value": 0.0,
+    "unrealized_pnl": 0.0,
+    "equity": null,
+    "total_pnl": null,
+    "return_pct": null,
     "peak_equity": 1000.423895,
     "max_drawdown_pct": 1.6167,
-    "marked_at": "2026-10-07T20:01:26.359330+00:00",
+    "marked_at": "2026-10-07T20:03:53.433381+00:00",
     "positions_marked": [
       {
         "symbol": "ARM",
-        "current_price": 296.079,
-        "market_value": 0.08507305888676273,
-        "unrealized_pnl": -0.012527379716222226,
+        "current_price": null,
+        "market_value": null,
+        "unrealized_pnl": null,
         "position_id": "position-80dd6fa6a430"
       },
       {
         "symbol": "JTO",
-        "current_price": 0.5141,
-        "market_value": 23.95720986036258,
-        "unrealized_pnl": -0.9150053051310856,
+        "current_price": null,
+        "market_value": null,
+        "unrealized_pnl": null,
         "position_id": "position-2931a9469fa7"
       },
       {
         "symbol": "NVDAx",
-        "current_price": 237.99,
-        "market_value": 25.75721707122841,
-        "unrealized_pnl": 0.7572170712284105,
+        "current_price": null,
+        "market_value": null,
+        "unrealized_pnl": null,
         "position_id": "position-905a5620934a"
       }
     ],
     "wallets": {
       "wallet-db34596b15": {
         "realized_pnl": -3.669995,
-        "unrealized_pnl": -0.170316,
-        "market_value": 49.7995,
+        "unrealized_pnl": 0.0,
+        "market_value": 0.0,
         "open_cost": 49.969816,
         "open_positions": 3,
         "trades": 17,
-        "total_pnl": -3.84031
+        "total_pnl": -3.669995
       }
     }
   },
@@ -375,12 +375,12 @@
     "rejected": 0,
     "ignored": 0,
     "api_errors": 0,
-    "valuation_complete": true,
-    "last_cycle": "2026-10-07T20:01:26.376891+00:00"
+    "valuation_complete": false,
+    "last_cycle": "2026-10-07T20:04:24.070571+00:00"
   },
   "circuit_breaker": {
-    "paused_until": null,
-    "reason": null
+    "paused_until": "2026-10-07T20:19:24.028683+00:00",
+    "reason": "stale_prices"
   },
-  "updated_at": "2026-10-07T20:01:26.398060+00:00"
+  "updated_at": "2026-10-07T20:04:24.090407+00:00"
 }
