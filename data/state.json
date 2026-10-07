@@ -324,15 +324,15 @@
     ]
   },
   "valuation": {
-    "valuation_complete": true,
-    "market_value": 50.211632,
-    "unrealized_pnl": 0.241816,
-    "equity": 996.571822,
-    "total_pnl": -3.428178,
-    "return_pct": -0.3428,
+    "valuation_complete": false,
+    "market_value": 25.847695,
+    "unrealized_pnl": 0.750094,
+    "equity": null,
+    "total_pnl": null,
+    "return_pct": null,
     "peak_equity": 1000.423895,
     "max_drawdown_pct": 1.6167,
-    "marked_at": "2026-10-07T21:35:32.325578+00:00",
+    "marked_at": "2026-10-07T21:38:03.644513+00:00",
     "positions_marked": [
       {
         "symbol": "ARM",
@@ -343,28 +343,28 @@
       },
       {
         "symbol": "JTO",
-        "current_price": 0.5229,
-        "market_value": 24.36729242556622,
-        "unrealized_pnl": -0.5049227399274443,
+        "current_price": null,
+        "market_value": null,
+        "unrealized_pnl": null,
         "position_id": "position-2931a9469fa7"
       },
       {
         "symbol": "NVDAx",
-        "current_price": 238.009,
-        "market_value": 25.759273406050685,
-        "unrealized_pnl": 0.7592734060506849,
+        "current_price": 238.04,
+        "market_value": 25.76262847865545,
+        "unrealized_pnl": 0.7626284786554507,
         "position_id": "position-905a5620934a"
       }
     ],
     "wallets": {
       "wallet-db34596b15": {
         "realized_pnl": -3.669995,
-        "unrealized_pnl": 0.241816,
-        "market_value": 50.211632,
+        "unrealized_pnl": 0.750094,
+        "market_value": 25.847695,
         "open_cost": 49.969816,
         "open_positions": 3,
         "trades": 17,
-        "total_pnl": -3.428178
+        "total_pnl": -2.919901
       }
     }
   },
@@ -375,12 +375,12 @@
     "rejected": 0,
     "ignored": 0,
     "api_errors": 0,
-    "valuation_complete": true,
-    "last_cycle": "2026-10-07T21:35:32.342628+00:00"
+    "valuation_complete": false,
+    "last_cycle": "2026-10-07T21:38:34.417680+00:00"
   },
   "circuit_breaker": {
-    "paused_until": null,
-    "reason": null
+    "paused_until": "2026-10-07T21:53:34.375368+00:00",
+    "reason": "stale_prices"
   },
-  "updated_at": "2026-10-07T21:35:32.360046+00:00"
+  "updated_at": "2026-10-07T21:38:34.434741+00:00"
 }
