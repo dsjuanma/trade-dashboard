@@ -324,28 +324,28 @@
     ]
   },
   "valuation": {
-    "valuation_complete": true,
-    "market_value": 51.744161,
-    "unrealized_pnl": 1.774345,
-    "equity": 998.10435,
-    "total_pnl": -1.89565,
-    "return_pct": -0.1896,
+    "valuation_complete": false,
+    "market_value": 25.689757,
+    "unrealized_pnl": 0.592156,
+    "equity": null,
+    "total_pnl": null,
+    "return_pct": null,
     "peak_equity": 1000.423895,
     "max_drawdown_pct": 1.6167,
-    "marked_at": "2026-10-08T06:28:21.696228+00:00",
+    "marked_at": "2026-10-08T06:39:24.137689+00:00",
     "positions_marked": [
       {
         "symbol": "ARM",
-        "current_price": 293.18,
-        "market_value": 0.08424008256046898,
-        "unrealized_pnl": -0.013360356042515967,
+        "current_price": 292.55,
+        "market_value": 0.08405906321394775,
+        "unrealized_pnl": -0.0135413753890372,
         "position_id": "position-80dd6fa6a430"
       },
       {
         "symbol": "JTO",
-        "current_price": 0.5591,
-        "market_value": 26.05422297788119,
-        "unrealized_pnl": 1.1820078123875248,
+        "current_price": null,
+        "market_value": null,
+        "unrealized_pnl": null,
         "position_id": "position-2931a9469fa7"
       },
       {
@@ -359,12 +359,12 @@
     "wallets": {
       "wallet-db34596b15": {
         "realized_pnl": -3.669995,
-        "unrealized_pnl": 1.774345,
-        "market_value": 51.744161,
+        "unrealized_pnl": 0.592156,
+        "market_value": 25.689757,
         "open_cost": 49.969816,
         "open_positions": 3,
         "trades": 17,
-        "total_pnl": -1.89565
+        "total_pnl": -3.077838
       }
     }
   },
@@ -375,12 +375,12 @@
     "rejected": 0,
     "ignored": 0,
     "api_errors": 0,
-    "valuation_complete": true,
-    "last_cycle": "2026-10-08T06:28:21.714297+00:00"
+    "valuation_complete": false,
+    "last_cycle": "2026-10-08T06:39:53.572498+00:00"
   },
   "circuit_breaker": {
-    "paused_until": null,
-    "reason": null
+    "paused_until": "2026-10-08T06:54:53.529769+00:00",
+    "reason": "stale_prices"
   },
-  "updated_at": "2026-10-08T06:28:21.733916+00:00"
+  "updated_at": "2026-10-08T06:39:53.592024+00:00"
 }
