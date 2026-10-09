@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T14:29:10.777959+00:00",
+  "generated_at": "2026-10-09T14:44:43.765515+00:00",
   "strategy_version": "copytrader-paper-v3-helius-dexscreener",
   "points": [
     {
@@ -665,34 +665,6 @@
       "equity": 998.161112,
       "total_pnl": -1.838888,
       "return_pct": -0.1839,
-      "max_drawdown_pct": 0.444
-    },
-    {
-      "time": "2026-10-02T14:24:35.038873+00:00",
-      "equity": 998.183524,
-      "total_pnl": -1.816476,
-      "return_pct": -0.1816,
-      "max_drawdown_pct": 0.444
-    },
-    {
-      "time": "2026-10-02T14:29:15.202518+00:00",
-      "equity": 998.306277,
-      "total_pnl": -1.693723,
-      "return_pct": -0.1694,
-      "max_drawdown_pct": 0.444
-    },
-    {
-      "time": "2026-10-02T14:34:47.483890+00:00",
-      "equity": 998.258846,
-      "total_pnl": -1.741154,
-      "return_pct": -0.1741,
-      "max_drawdown_pct": 0.444
-    },
-    {
-      "time": "2026-10-02T14:39:55.809896+00:00",
-      "equity": 998.069439,
-      "total_pnl": -1.930561,
-      "return_pct": -0.1931,
       "max_drawdown_pct": 0.444
     },
     {
@@ -14675,10 +14647,31 @@
       "max_drawdown_pct": 1.6167
     },
     {
-      "time": "2026-10-09T14:29:10.742250+00:00",
-      "equity": 995.300921,
-      "total_pnl": -4.699079,
-      "return_pct": -0.4699,
+      "time": "2026-10-09T14:29:43.023815+00:00",
+      "equity": 995.162533,
+      "total_pnl": -4.837467,
+      "return_pct": -0.4837,
+      "max_drawdown_pct": 1.6167
+    },
+    {
+      "time": "2026-10-09T14:34:45.069265+00:00",
+      "equity": 995.309159,
+      "total_pnl": -4.690841,
+      "return_pct": -0.4691,
+      "max_drawdown_pct": 1.6167
+    },
+    {
+      "time": "2026-10-09T14:39:44.730852+00:00",
+      "equity": 995.367333,
+      "total_pnl": -4.632667,
+      "return_pct": -0.4633,
+      "max_drawdown_pct": 1.6167
+    },
+    {
+      "time": "2026-10-09T14:44:43.729264+00:00",
+      "equity": 995.378308,
+      "total_pnl": -4.621692,
+      "return_pct": -0.4622,
       "max_drawdown_pct": 1.6167
     }
   ]
