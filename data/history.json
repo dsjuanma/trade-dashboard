@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T15:19:01.342583+00:00",
+  "generated_at": "2026-10-10T15:34:33.152855+00:00",
   "strategy_version": "copytrader-paper-v3-helius-dexscreener",
   "points": [
     {
@@ -839,34 +839,6 @@
       "time": "2026-10-03T14:59:52.983414+00:00",
       "equity": 997.281816,
       "total_pnl": -2.718184,
-      "return_pct": -0.2718,
-      "max_drawdown_pct": 0.4884
-    },
-    {
-      "time": "2026-10-03T15:14:25.015074+00:00",
-      "equity": 997.089914,
-      "total_pnl": -2.910086,
-      "return_pct": -0.291,
-      "max_drawdown_pct": 0.4884
-    },
-    {
-      "time": "2026-10-03T15:19:38.762450+00:00",
-      "equity": 997.074851,
-      "total_pnl": -2.925149,
-      "return_pct": -0.2925,
-      "max_drawdown_pct": 0.4884
-    },
-    {
-      "time": "2026-10-03T15:24:39.078551+00:00",
-      "equity": 997.063367,
-      "total_pnl": -2.936633,
-      "return_pct": -0.2937,
-      "max_drawdown_pct": 0.4884
-    },
-    {
-      "time": "2026-10-03T15:29:23.029656+00:00",
-      "equity": 997.281637,
-      "total_pnl": -2.718363,
       "return_pct": -0.2718,
       "max_drawdown_pct": 0.4884
     },
@@ -14850,10 +14822,31 @@
       "max_drawdown_pct": 1.6167
     },
     {
-      "time": "2026-10-10T15:19:01.297609+00:00",
+      "time": "2026-10-10T15:19:29.185241+00:00",
       "equity": 996.47684,
       "total_pnl": -3.52316,
       "return_pct": -0.3523,
+      "max_drawdown_pct": 1.6167
+    },
+    {
+      "time": "2026-10-10T15:24:58.873761+00:00",
+      "equity": 996.4757,
+      "total_pnl": -3.5243,
+      "return_pct": -0.3524,
+      "max_drawdown_pct": 1.6167
+    },
+    {
+      "time": "2026-10-10T15:29:32.300494+00:00",
+      "equity": 996.630563,
+      "total_pnl": -3.369437,
+      "return_pct": -0.3369,
+      "max_drawdown_pct": 1.6167
+    },
+    {
+      "time": "2026-10-10T15:34:33.109841+00:00",
+      "equity": 996.653863,
+      "total_pnl": -3.346137,
+      "return_pct": -0.3346,
       "max_drawdown_pct": 1.6167
     }
   ]
