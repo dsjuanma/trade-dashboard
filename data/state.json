@@ -325,20 +325,20 @@
   },
   "valuation": {
     "valuation_complete": true,
-    "market_value": 50.94004,
-    "unrealized_pnl": 0.970224,
-    "equity": 997.300229,
-    "total_pnl": -2.699771,
+    "market_value": 50.939844,
+    "unrealized_pnl": 0.970029,
+    "equity": 997.300034,
+    "total_pnl": -2.699966,
     "return_pct": -0.27,
     "peak_equity": 1000.423895,
     "max_drawdown_pct": 1.6167,
-    "marked_at": "2026-10-11T08:56:14.489793+00:00",
+    "marked_at": "2026-10-11T09:11:45.805195+00:00",
     "positions_marked": [
       {
         "symbol": "ARM",
-        "current_price": 267.2,
-        "market_value": 0.07677518950868856,
-        "unrealized_pnl": -0.020825249094296394,
+        "current_price": 266.52,
+        "market_value": 0.07657980354736404,
+        "unrealized_pnl": -0.021020635055620907,
         "position_id": "position-80dd6fa6a430"
       },
       {
@@ -359,12 +359,12 @@
     "wallets": {
       "wallet-db34596b15": {
         "realized_pnl": -3.669995,
-        "unrealized_pnl": 0.970224,
-        "market_value": 50.94004,
+        "unrealized_pnl": 0.970029,
+        "market_value": 50.939844,
         "open_cost": 49.969816,
         "open_positions": 3,
         "trades": 17,
-        "total_pnl": -2.699771
+        "total_pnl": -2.699966
       }
     }
   },
@@ -376,11 +376,11 @@
     "ignored": 0,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-10-11T08:56:14.510409+00:00"
+    "last_cycle": "2026-10-11T09:11:45.827623+00:00"
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-10-11T08:56:14.536033+00:00"
+  "updated_at": "2026-10-11T09:11:45.853900+00:00"
 }
