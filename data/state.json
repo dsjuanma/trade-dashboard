@@ -325,14 +325,14 @@
   },
   "valuation": {
     "valuation_complete": true,
-    "market_value": 50.56225,
-    "unrealized_pnl": 0.592434,
-    "equity": 996.922439,
-    "total_pnl": -3.077561,
-    "return_pct": -0.3078,
+    "market_value": 50.409882,
+    "unrealized_pnl": 0.440066,
+    "equity": 996.770072,
+    "total_pnl": -3.229928,
+    "return_pct": -0.323,
     "peak_equity": 1000.423895,
     "max_drawdown_pct": 1.6167,
-    "marked_at": "2026-10-11T00:56:44.234689+00:00",
+    "marked_at": "2026-10-11T01:11:51.366201+00:00",
     "positions_marked": [
       {
         "symbol": "ARM",
@@ -343,28 +343,28 @@
       },
       {
         "symbol": "JTO",
-        "current_price": 0.5472,
-        "market_value": 25.499679509026265,
-        "unrealized_pnl": 0.6274643435326013,
+        "current_price": 0.544,
+        "market_value": 25.350558576224945,
+        "unrealized_pnl": 0.4783434107312807,
         "position_id": "position-2931a9469fa7"
       },
       {
         "symbol": "NVDAx",
-        "current_price": 230.86,
-        "market_value": 24.985550372132405,
-        "unrealized_pnl": -0.014449627867595183,
+        "current_price": 230.83,
+        "market_value": 24.98230352767618,
+        "unrealized_pnl": -0.01769647232381999,
         "position_id": "position-905a5620934a"
       }
     ],
     "wallets": {
       "wallet-db34596b15": {
         "realized_pnl": -3.669995,
-        "unrealized_pnl": 0.592434,
-        "market_value": 50.56225,
+        "unrealized_pnl": 0.440066,
+        "market_value": 50.409882,
         "open_cost": 49.969816,
         "open_positions": 3,
         "trades": 17,
-        "total_pnl": -3.077561
+        "total_pnl": -3.229928
       }
     }
   },
@@ -376,11 +376,11 @@
     "ignored": 0,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-10-11T00:56:44.264240+00:00"
+    "last_cycle": "2026-10-11T01:11:51.387033+00:00"
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-10-11T00:56:44.295623+00:00"
+  "updated_at": "2026-10-11T01:11:51.422268+00:00"
 }
