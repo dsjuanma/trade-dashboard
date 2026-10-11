@@ -325,27 +325,27 @@
   },
   "valuation": {
     "valuation_complete": true,
-    "market_value": 50.75766,
-    "unrealized_pnl": 0.787844,
-    "equity": 997.117849,
-    "total_pnl": -2.882151,
-    "return_pct": -0.2882,
+    "market_value": 50.77162,
+    "unrealized_pnl": 0.801805,
+    "equity": 997.13181,
+    "total_pnl": -2.86819,
+    "return_pct": -0.2868,
     "peak_equity": 1000.423895,
     "max_drawdown_pct": 1.6167,
-    "marked_at": "2026-10-10T23:50:10.280962+00:00",
+    "marked_at": "2026-10-11T00:05:39.833624+00:00",
     "positions_marked": [
       {
         "symbol": "ARM",
-        "current_price": 268.12,
-        "market_value": 0.07703953522106877,
-        "unrealized_pnl": -0.020560903381916185,
+        "current_price": 268.052,
+        "market_value": 0.07701999662493633,
+        "unrealized_pnl": -0.02058044197804862,
         "position_id": "position-80dd6fa6a430"
       },
       {
         "symbol": "JTO",
-        "current_price": 0.5513,
-        "market_value": 25.690740704177962,
-        "unrealized_pnl": 0.8185255386842982,
+        "current_price": 0.5516,
+        "market_value": 25.704720791628084,
+        "unrealized_pnl": 0.8325056261344201,
         "position_id": "position-2931a9469fa7"
       },
       {
@@ -359,12 +359,12 @@
     "wallets": {
       "wallet-db34596b15": {
         "realized_pnl": -3.669995,
-        "unrealized_pnl": 0.787844,
-        "market_value": 50.75766,
+        "unrealized_pnl": 0.801805,
+        "market_value": 50.77162,
         "open_cost": 49.969816,
         "open_positions": 3,
         "trades": 17,
-        "total_pnl": -2.882151
+        "total_pnl": -2.86819
       }
     }
   },
@@ -376,11 +376,11 @@
     "ignored": 0,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-10-10T23:50:10.302898+00:00"
+    "last_cycle": "2026-10-11T00:05:39.844844+00:00"
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-10-10T23:50:10.332184+00:00"
+  "updated_at": "2026-10-11T00:05:39.868700+00:00"
 }
