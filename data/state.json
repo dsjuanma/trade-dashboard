@@ -285,6 +285,16 @@
           "ci_high_net_return_pct": null,
           "hit_rate_pct": 100.0,
           "avg_latency_seconds": 3676.36
+        },
+        "3600": {
+          "samples": 1,
+          "effective_samples": 1,
+          "confidence_reliable": false,
+          "avg_net_return_pct": 17.1718,
+          "ci_low_net_return_pct": null,
+          "ci_high_net_return_pct": null,
+          "hit_rate_pct": 100.0,
+          "avg_latency_seconds": 3676.36
         }
       }
     }
@@ -396,14 +406,14 @@
   },
   "valuation": {
     "valuation_complete": true,
-    "market_value": 51.423686,
-    "unrealized_pnl": 1.453871,
-    "equity": 997.783876,
-    "total_pnl": -2.216124,
-    "return_pct": -0.2216,
+    "market_value": 51.451646,
+    "unrealized_pnl": 1.481831,
+    "equity": 997.811836,
+    "total_pnl": -2.188164,
+    "return_pct": -0.2188,
     "peak_equity": 1000.423895,
     "max_drawdown_pct": 1.6167,
-    "marked_at": "2026-10-11T23:40:29.763872+00:00",
+    "marked_at": "2026-10-11T23:56:00.260306+00:00",
     "positions_marked": [
       {
         "symbol": "ARM",
@@ -414,9 +424,9 @@
       },
       {
         "symbol": "JTO",
-        "current_price": 0.5647,
-        "market_value": 26.315184610283502,
-        "unrealized_pnl": 1.4429694447898385,
+        "current_price": 0.5653,
+        "market_value": 26.34314478518375,
+        "unrealized_pnl": 1.4709296196900858,
         "position_id": "position-2931a9469fa7"
       },
       {
@@ -430,12 +440,12 @@
     "wallets": {
       "wallet-db34596b15": {
         "realized_pnl": -3.669995,
-        "unrealized_pnl": 1.453871,
-        "market_value": 51.423686,
+        "unrealized_pnl": 1.481831,
+        "market_value": 51.451646,
         "open_cost": 49.969816,
         "open_positions": 3,
         "trades": 17,
-        "total_pnl": -2.216124
+        "total_pnl": -2.188164
       }
     }
   },
@@ -448,11 +458,11 @@
     "shadow": 0,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-10-11T23:40:29.780872+00:00"
+    "last_cycle": "2026-10-11T23:56:00.277933+00:00"
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-10-11T23:40:29.801155+00:00"
+  "updated_at": "2026-10-11T23:56:00.298107+00:00"
 }
