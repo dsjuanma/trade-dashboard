@@ -257,34 +257,34 @@
     "wallet-24dbf78d33": {
       "BUY": {
         "60": {
-          "samples": 2,
-          "effective_samples": 2,
+          "samples": 3,
+          "effective_samples": 3,
           "confidence_reliable": false,
-          "avg_net_return_pct": 0.3029,
+          "avg_net_return_pct": 0.4218,
           "ci_low_net_return_pct": null,
           "ci_high_net_return_pct": null,
-          "hit_rate_pct": 50.0,
-          "avg_latency_seconds": 2016.39
+          "hit_rate_pct": 66.67,
+          "avg_latency_seconds": 1500.41
         },
         "300": {
-          "samples": 2,
-          "effective_samples": 2,
+          "samples": 3,
+          "effective_samples": 3,
           "confidence_reliable": false,
-          "avg_net_return_pct": 21.7661,
+          "avg_net_return_pct": 16.4152,
           "ci_low_net_return_pct": null,
           "ci_high_net_return_pct": null,
-          "hit_rate_pct": 50.0,
-          "avg_latency_seconds": 2016.39
+          "hit_rate_pct": 66.67,
+          "avg_latency_seconds": 1500.41
         },
         "900": {
-          "samples": 2,
-          "effective_samples": 2,
+          "samples": 3,
+          "effective_samples": 3,
           "confidence_reliable": false,
-          "avg_net_return_pct": 11.9587,
+          "avg_net_return_pct": 9.0761,
           "ci_low_net_return_pct": null,
           "ci_high_net_return_pct": null,
-          "hit_rate_pct": 50.0,
-          "avg_latency_seconds": 2016.39
+          "hit_rate_pct": 66.67,
+          "avg_latency_seconds": 1500.41
         },
         "3600": {
           "samples": 1,
@@ -406,63 +406,63 @@
   },
   "valuation": {
     "valuation_complete": true,
-    "market_value": 50.808188,
-    "unrealized_pnl": 0.838373,
-    "equity": 997.168378,
-    "total_pnl": -2.831622,
-    "return_pct": -0.2832,
+    "market_value": 50.690269,
+    "unrealized_pnl": 0.720453,
+    "equity": 997.050458,
+    "total_pnl": -2.949542,
+    "return_pct": -0.295,
     "peak_equity": 1000.423895,
     "max_drawdown_pct": 1.6167,
-    "marked_at": "2026-10-12T01:52:39.167180+00:00",
+    "marked_at": "2026-10-12T02:08:06.368137+00:00",
     "positions_marked": [
       {
         "symbol": "ARM",
-        "current_price": 265.98,
-        "market_value": 0.07642464410748871,
-        "unrealized_pnl": -0.02117579449549624,
+        "current_price": 265.96,
+        "market_value": 0.0764188974615674,
+        "unrealized_pnl": -0.021181541141417556,
         "position_id": "position-80dd6fa6a430"
       },
       {
         "symbol": "JTO",
-        "current_price": 0.554,
-        "market_value": 25.81656149122908,
-        "unrealized_pnl": 0.9443463257354168,
+        "current_price": 0.5514,
+        "market_value": 25.695400733328004,
+        "unrealized_pnl": 0.82318556783434,
         "position_id": "position-2931a9469fa7"
       },
       {
         "symbol": "NVDAx",
-        "current_price": 230.21,
-        "market_value": 24.915202075580876,
-        "unrealized_pnl": -0.08479792441912437,
+        "current_price": 230.24,
+        "market_value": 24.9184489200371,
+        "unrealized_pnl": -0.08155107996289956,
         "position_id": "position-905a5620934a"
       }
     ],
     "wallets": {
       "wallet-db34596b15": {
         "realized_pnl": -3.669995,
-        "unrealized_pnl": 0.838373,
-        "market_value": 50.808188,
+        "unrealized_pnl": 0.720453,
+        "market_value": 50.690269,
         "open_cost": 49.969816,
         "open_positions": 3,
         "trades": 17,
-        "total_pnl": -2.831622
+        "total_pnl": -2.949542
       }
     }
   },
   "operations": {
-    "tx_new": 1,
-    "signals": 1,
+    "tx_new": 0,
+    "signals": 0,
     "copied": 0,
     "rejected": 0,
     "ignored": 0,
-    "shadow": 1,
+    "shadow": 0,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-10-12T01:52:39.183943+00:00"
+    "last_cycle": "2026-10-12T02:08:06.374348+00:00"
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-10-12T01:52:39.214993+00:00"
+  "updated_at": "2026-10-12T02:08:06.405230+00:00"
 }
