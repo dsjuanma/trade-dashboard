@@ -254,6 +254,20 @@
     }
   },
   "markout_metrics": {
+    "wallet-1d17c0eb7c": {
+      "SELL": {
+        "60": {
+          "samples": 2,
+          "effective_samples": 1,
+          "confidence_reliable": false,
+          "avg_net_return_pct": 3.1304,
+          "ci_low_net_return_pct": null,
+          "ci_high_net_return_pct": null,
+          "hit_rate_pct": 100.0,
+          "avg_latency_seconds": 36.71
+        }
+      }
+    },
     "wallet-24dbf78d33": {
       "BUY": {
         "60": {
@@ -316,6 +330,11 @@
       "count": 3
     },
     {
+      "status": "SHADOW",
+      "reason": "candidate_observation",
+      "count": 2
+    },
+    {
       "status": "REJECTED",
       "reason": "adverse_price_move",
       "count": 1
@@ -330,14 +349,22 @@
     "strategy_version": "copytrader-paper-v3-helius-dexscreener",
     "windows": {
       "24h": {
-        "total": 5,
+        "total": 7,
         "statuses": {
+          "SHADOW": 2,
           "SHADOW_REJECTED": 5
         },
         "reasons": {
-          "stale_signal": 5
+          "stale_signal": 5,
+          "candidate_observation": 2
         },
         "wallets": {
+          "wallet-1d17c0eb7c": {
+            "total": 2,
+            "statuses": {
+              "SHADOW": 2
+            }
+          },
           "wallet-24dbf78d33": {
             "total": 5,
             "statuses": {
@@ -347,14 +374,22 @@
         }
       },
       "7d": {
-        "total": 5,
+        "total": 7,
         "statuses": {
+          "SHADOW": 2,
           "SHADOW_REJECTED": 5
         },
         "reasons": {
-          "stale_signal": 5
+          "stale_signal": 5,
+          "candidate_observation": 2
         },
         "wallets": {
+          "wallet-1d17c0eb7c": {
+            "total": 2,
+            "statuses": {
+              "SHADOW": 2
+            }
+          },
           "wallet-24dbf78d33": {
             "total": 5,
             "statuses": {
@@ -386,9 +421,9 @@
     "cohorts": [
       {
         "strategy_version": "copytrader-paper-v3-helius-dexscreener",
-        "decisions": 5,
+        "decisions": 7,
         "first_at": 1791758699.355664,
-        "last_at": 1791794222.769394,
+        "last_at": 1791798579.708924,
         "copied": 0,
         "rejected": 0,
         "ignored": 0
@@ -406,14 +441,14 @@
   },
   "valuation": {
     "valuation_complete": true,
-    "market_value": 51.196199,
-    "unrealized_pnl": 1.226383,
-    "equity": 997.556389,
-    "total_pnl": -2.443611,
-    "return_pct": -0.2444,
+    "market_value": 50.935237,
+    "unrealized_pnl": 0.965422,
+    "equity": 997.295427,
+    "total_pnl": -2.704573,
+    "return_pct": -0.2705,
     "peak_equity": 1000.423895,
     "max_drawdown_pct": 1.6167,
-    "marked_at": "2026-10-12T09:42:35.614703+00:00",
+    "marked_at": "2026-10-12T09:52:41.035707+00:00",
     "positions_marked": [
       {
         "symbol": "ARM",
@@ -424,9 +459,9 @@
       },
       {
         "symbol": "JTO",
-        "current_price": 0.563,
-        "market_value": 26.235964114732795,
-        "unrealized_pnl": 1.363748949239131,
+        "current_price": 0.5574,
+        "market_value": 25.975002482330485,
+        "unrealized_pnl": 1.102787316836821,
         "position_id": "position-2931a9469fa7"
       },
       {
@@ -440,12 +475,12 @@
     "wallets": {
       "wallet-db34596b15": {
         "realized_pnl": -3.669995,
-        "unrealized_pnl": 1.226383,
-        "market_value": 51.196199,
+        "unrealized_pnl": 0.965422,
+        "market_value": 50.935237,
         "open_cost": 49.969816,
         "open_positions": 3,
         "trades": 17,
-        "total_pnl": -2.443611
+        "total_pnl": -2.704573
       }
     }
   },
@@ -458,11 +493,11 @@
     "shadow": 0,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-10-12T09:42:35.661492+00:00"
+    "last_cycle": "2026-10-12T09:52:41.088483+00:00"
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-10-12T09:42:35.681239+00:00"
+  "updated_at": "2026-10-12T09:52:41.109174+00:00"
 }
