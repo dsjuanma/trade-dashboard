@@ -301,14 +301,14 @@
     "wallet-24dbf78d33": {
       "BUY": {
         "60": {
-          "samples": 5,
-          "effective_samples": 4,
+          "samples": 7,
+          "effective_samples": 5,
           "confidence_reliable": false,
-          "avg_net_return_pct": -0.0598,
+          "avg_net_return_pct": -0.536,
           "ci_low_net_return_pct": null,
           "ci_high_net_return_pct": null,
-          "hit_rate_pct": 40.0,
-          "avg_latency_seconds": 1045.68
+          "hit_rate_pct": 28.57,
+          "avg_latency_seconds": 813.58
         },
         "300": {
           "samples": 5,
@@ -347,7 +347,7 @@
     {
       "status": "SHADOW_REJECTED",
       "reason": "stale_signal",
-      "count": 7
+      "count": 9
     },
     {
       "status": "IGNORED",
@@ -379,13 +379,13 @@
     "strategy_version": "copytrader-paper-v3-helius-dexscreener",
     "windows": {
       "24h": {
-        "total": 6,
+        "total": 8,
         "statuses": {
           "SHADOW": 2,
-          "SHADOW_REJECTED": 4
+          "SHADOW_REJECTED": 6
         },
         "reasons": {
-          "stale_signal": 4,
+          "stale_signal": 6,
           "candidate_observation": 2
         },
         "wallets": {
@@ -397,21 +397,21 @@
             }
           },
           "wallet-24dbf78d33": {
-            "total": 2,
+            "total": 4,
             "statuses": {
-              "SHADOW_REJECTED": 2
+              "SHADOW_REJECTED": 4
             }
           }
         }
       },
       "7d": {
-        "total": 9,
+        "total": 11,
         "statuses": {
           "SHADOW": 2,
-          "SHADOW_REJECTED": 7
+          "SHADOW_REJECTED": 9
         },
         "reasons": {
-          "stale_signal": 7,
+          "stale_signal": 9,
           "candidate_observation": 2
         },
         "wallets": {
@@ -423,9 +423,9 @@
             }
           },
           "wallet-24dbf78d33": {
-            "total": 5,
+            "total": 7,
             "statuses": {
-              "SHADOW_REJECTED": 5
+              "SHADOW_REJECTED": 7
             }
           }
         }
@@ -453,9 +453,9 @@
     "cohorts": [
       {
         "strategy_version": "copytrader-paper-v3-helius-dexscreener",
-        "decisions": 9,
+        "decisions": 11,
         "first_at": 1791758699.355664,
-        "last_at": 1791830470.086057,
+        "last_at": 1791861778.331917,
         "copied": 0,
         "rejected": 0,
         "ignored": 0
@@ -473,14 +473,14 @@
   },
   "valuation": {
     "valuation_complete": true,
-    "market_value": 48.478614,
-    "unrealized_pnl": -1.491201,
-    "equity": 994.838804,
-    "total_pnl": -5.161196,
-    "return_pct": -0.5161,
+    "market_value": 48.586967,
+    "unrealized_pnl": -1.382849,
+    "equity": 994.947156,
+    "total_pnl": -5.052844,
+    "return_pct": -0.5053,
     "peak_equity": 1000.423895,
     "max_drawdown_pct": 1.6167,
-    "marked_at": "2026-10-13T03:15:25.152479+00:00",
+    "marked_at": "2026-10-13T03:25:56.208190+00:00",
     "positions_marked": [
       {
         "symbol": "ARM",
@@ -491,28 +491,28 @@
       },
       {
         "symbol": "JTO",
-        "current_price": 0.5182,
-        "market_value": 24.148271055514275,
-        "unrealized_pnl": -0.7239441099793886,
+        "current_price": 0.5202,
+        "market_value": 24.2414716385151,
+        "unrealized_pnl": -0.6307435269785628,
         "position_id": "position-2931a9469fa7"
       },
       {
         "symbol": "NVDAx",
-        "current_price": 224.14,
-        "market_value": 24.25825721393813,
-        "unrealized_pnl": -0.7417427860618702,
+        "current_price": 224.28,
+        "market_value": 24.273409154733844,
+        "unrealized_pnl": -0.7265908452661556,
         "position_id": "position-905a5620934a"
       }
     ],
     "wallets": {
       "wallet-db34596b15": {
         "realized_pnl": -3.669995,
-        "unrealized_pnl": -1.491201,
-        "market_value": 48.478614,
+        "unrealized_pnl": -1.382849,
+        "market_value": 48.586967,
         "open_cost": 49.969816,
         "open_positions": 3,
         "trades": 17,
-        "total_pnl": -5.161196
+        "total_pnl": -5.052844
       }
     }
   },
@@ -525,11 +525,11 @@
     "shadow": 0,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-10-13T03:15:25.170853+00:00"
+    "last_cycle": "2026-10-13T03:25:56.212848+00:00"
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-10-13T03:15:25.190268+00:00"
+  "updated_at": "2026-10-13T03:25:56.231439+00:00"
 }
