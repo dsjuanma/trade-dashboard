@@ -379,20 +379,14 @@
     "strategy_version": "copytrader-paper-v3-helius-dexscreener",
     "windows": {
       "24h": {
-        "total": 3,
+        "total": 2,
         "statuses": {
-          "SHADOW_REJECTED": 3
+          "SHADOW_REJECTED": 2
         },
         "reasons": {
-          "stale_signal": 3
+          "stale_signal": 2
         },
         "wallets": {
-          "wallet-1d17c0eb7c": {
-            "total": 1,
-            "statuses": {
-              "SHADOW_REJECTED": 1
-            }
-          },
           "wallet-24dbf78d33": {
             "total": 2,
             "statuses": {
@@ -470,46 +464,46 @@
   },
   "valuation": {
     "valuation_complete": true,
-    "market_value": 49.940044,
-    "unrealized_pnl": -0.029772,
-    "equity": 996.300233,
-    "total_pnl": -3.699767,
-    "return_pct": -0.37,
+    "market_value": 50.174314,
+    "unrealized_pnl": 0.204499,
+    "equity": 996.534504,
+    "total_pnl": -3.465496,
+    "return_pct": -0.3465,
     "peak_equity": 1000.423895,
     "max_drawdown_pct": 1.6167,
-    "marked_at": "2026-10-13T18:26:35.483706+00:00",
+    "marked_at": "2026-10-13T18:41:42.180441+00:00",
     "positions_marked": [
       {
         "symbol": "ARM",
-        "current_price": 253.5,
-        "market_value": 0.07283873705259188,
-        "unrealized_pnl": -0.024761701550393075,
+        "current_price": 254.15,
+        "market_value": 0.07302550304503443,
+        "unrealized_pnl": -0.024574935557950525,
         "position_id": "position-80dd6fa6a430"
       },
       {
         "symbol": "JTO",
-        "current_price": 0.5413,
-        "market_value": 25.224737789173826,
-        "unrealized_pnl": 0.3525226236801622,
+        "current_price": 0.5463,
+        "market_value": 25.457739246675896,
+        "unrealized_pnl": 0.585524081182232,
         "position_id": "position-2931a9469fa7"
       },
       {
         "symbol": "NVDAx",
-        "current_price": 227.69,
-        "market_value": 24.64246714125802,
-        "unrealized_pnl": -0.3575328587419797,
+        "current_price": 227.7,
+        "market_value": 24.64354942274343,
+        "unrealized_pnl": -0.35645057725657026,
         "position_id": "position-905a5620934a"
       }
     ],
     "wallets": {
       "wallet-db34596b15": {
         "realized_pnl": -3.669995,
-        "unrealized_pnl": -0.029772,
-        "market_value": 49.940044,
+        "unrealized_pnl": 0.204499,
+        "market_value": 50.174314,
         "open_cost": 49.969816,
         "open_positions": 3,
         "trades": 17,
-        "total_pnl": -3.699767
+        "total_pnl": -3.465496
       }
     }
   },
@@ -522,11 +516,11 @@
     "shadow": 0,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-10-13T18:26:35.490957+00:00"
+    "last_cycle": "2026-10-13T18:41:42.186229+00:00"
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-10-13T18:26:35.513507+00:00"
+  "updated_at": "2026-10-13T18:41:42.211001+00:00"
 }
