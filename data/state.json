@@ -473,20 +473,20 @@
   },
   "valuation": {
     "valuation_complete": true,
-    "market_value": 49.73817,
-    "unrealized_pnl": -0.231645,
-    "equity": 996.09836,
-    "total_pnl": -3.90164,
-    "return_pct": -0.3902,
+    "market_value": 49.740318,
+    "unrealized_pnl": -0.229498,
+    "equity": 996.100507,
+    "total_pnl": -3.899493,
+    "return_pct": -0.3899,
     "peak_equity": 1000.423895,
     "max_drawdown_pct": 1.6167,
-    "marked_at": "2026-10-13T06:31:38.372459+00:00",
+    "marked_at": "2026-10-13T06:47:08.056555+00:00",
     "positions_marked": [
       {
         "symbol": "ARM",
-        "current_price": 250.87,
-        "market_value": 0.07208305311393974,
-        "unrealized_pnl": -0.02551738548904521,
+        "current_price": 250.81,
+        "market_value": 0.07206581317617582,
+        "unrealized_pnl": -0.025534625426809135,
         "position_id": "position-80dd6fa6a430"
       },
       {
@@ -498,21 +498,21 @@
       },
       {
         "symbol": "NVDAx",
-        "current_price": 224.54,
-        "market_value": 24.301548473354455,
-        "unrealized_pnl": -0.6984515266455453,
+        "current_price": 224.56,
+        "market_value": 24.303713036325274,
+        "unrealized_pnl": -0.6962869636747264,
         "position_id": "position-905a5620934a"
       }
     ],
     "wallets": {
       "wallet-db34596b15": {
         "realized_pnl": -3.669995,
-        "unrealized_pnl": -0.231645,
-        "market_value": 49.73817,
+        "unrealized_pnl": -0.229498,
+        "market_value": 49.740318,
         "open_cost": 49.969816,
         "open_positions": 3,
         "trades": 17,
-        "total_pnl": -3.90164
+        "total_pnl": -3.899493
       }
     }
   },
@@ -525,11 +525,11 @@
     "shadow": 0,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-10-13T06:31:38.390160+00:00"
+    "last_cycle": "2026-10-13T06:47:08.074681+00:00"
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-10-13T06:31:38.409732+00:00"
+  "updated_at": "2026-10-13T06:47:08.093370+00:00"
 }
