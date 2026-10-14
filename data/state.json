@@ -347,7 +347,7 @@
     {
       "status": "SHADOW_REJECTED",
       "reason": "stale_signal",
-      "count": 9
+      "count": 10
     },
     {
       "status": "IGNORED",
@@ -379,19 +379,30 @@
     "strategy_version": "copytrader-paper-v3-helius-dexscreener",
     "windows": {
       "24h": {
-        "total": 0,
-        "statuses": {},
-        "reasons": {},
-        "wallets": {}
-      },
-      "7d": {
-        "total": 11,
+        "total": 1,
         "statuses": {
-          "SHADOW": 2,
-          "SHADOW_REJECTED": 9
+          "SHADOW_REJECTED": 1
         },
         "reasons": {
-          "stale_signal": 9,
+          "stale_signal": 1
+        },
+        "wallets": {
+          "wallet-24dbf78d33": {
+            "total": 1,
+            "statuses": {
+              "SHADOW_REJECTED": 1
+            }
+          }
+        }
+      },
+      "7d": {
+        "total": 12,
+        "statuses": {
+          "SHADOW": 2,
+          "SHADOW_REJECTED": 10
+        },
+        "reasons": {
+          "stale_signal": 10,
           "candidate_observation": 2
         },
         "wallets": {
@@ -403,9 +414,9 @@
             }
           },
           "wallet-24dbf78d33": {
-            "total": 7,
+            "total": 8,
             "statuses": {
-              "SHADOW_REJECTED": 7
+              "SHADOW_REJECTED": 8
             }
           }
         }
@@ -433,9 +444,9 @@
     "cohorts": [
       {
         "strategy_version": "copytrader-paper-v3-helius-dexscreener",
-        "decisions": 11,
+        "decisions": 12,
         "first_at": 1791758699.355664,
-        "last_at": 1791861778.331917,
+        "last_at": 1791991056.826594,
         "copied": 0,
         "rejected": 0,
         "ignored": 0
@@ -453,63 +464,63 @@
   },
   "valuation": {
     "valuation_complete": true,
-    "market_value": 47.864286,
-    "unrealized_pnl": -2.10553,
-    "equity": 994.224475,
-    "total_pnl": -5.775525,
-    "return_pct": -0.5776,
+    "market_value": 47.600314,
+    "unrealized_pnl": -2.369501,
+    "equity": 993.960504,
+    "total_pnl": -6.039496,
+    "return_pct": -0.6039,
     "peak_equity": 1000.423895,
     "max_drawdown_pct": 1.6167,
-    "marked_at": "2026-10-14T15:05:32.870994+00:00",
+    "marked_at": "2026-10-14T15:17:38.338781+00:00",
     "positions_marked": [
       {
         "symbol": "ARM",
-        "current_price": 245.18,
-        "market_value": 0.07044813234932733,
-        "unrealized_pnl": -0.027152306253657624,
+        "current_price": 244.26,
+        "market_value": 0.0701837866369471,
+        "unrealized_pnl": -0.027416651966037847,
         "position_id": "position-80dd6fa6a430"
       },
       {
         "symbol": "JTO",
-        "current_price": 0.5041,
-        "market_value": 23.491206945358442,
-        "unrealized_pnl": -1.3810082201352216,
+        "current_price": 0.4996,
+        "market_value": 23.28150563360658,
+        "unrealized_pnl": -1.5907095318870823,
         "position_id": "position-2931a9469fa7"
       },
       {
         "symbol": "NVDAx",
-        "current_price": 224.55,
-        "market_value": 24.302630754839868,
-        "unrealized_pnl": -0.6973692451601323,
+        "current_price": 224.051,
+        "market_value": 24.248624908717996,
+        "unrealized_pnl": -0.7513750912820036,
         "position_id": "position-905a5620934a"
       }
     ],
     "wallets": {
       "wallet-db34596b15": {
         "realized_pnl": -3.669995,
-        "unrealized_pnl": -2.10553,
-        "market_value": 47.864286,
+        "unrealized_pnl": -2.369501,
+        "market_value": 47.600314,
         "open_cost": 49.969816,
         "open_positions": 3,
         "trades": 17,
-        "total_pnl": -5.775525
+        "total_pnl": -6.039496
       }
     }
   },
   "operations": {
-    "tx_new": 0,
-    "signals": 0,
+    "tx_new": 1,
+    "signals": 1,
     "copied": 0,
     "rejected": 0,
     "ignored": 0,
-    "shadow": 0,
+    "shadow": 1,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-10-14T15:05:32.889348+00:00"
+    "last_cycle": "2026-10-14T15:17:38.356307+00:00"
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-10-14T15:05:32.909664+00:00"
+  "updated_at": "2026-10-14T15:17:38.380980+00:00"
 }
