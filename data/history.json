@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T06:34:30.116796+00:00",
+  "generated_at": "2026-10-14T06:50:04.725287+00:00",
   "strategy_version": "copytrader-paper-v3-helius-dexscreener",
   "points": [
     {
@@ -1449,34 +1449,6 @@
       "equity": 996.980065,
       "total_pnl": -3.019935,
       "return_pct": -0.302,
-      "max_drawdown_pct": 1.6167
-    },
-    {
-      "time": "2026-10-07T06:29:56.379015+00:00",
-      "equity": 997.19617,
-      "total_pnl": -2.80383,
-      "return_pct": -0.2804,
-      "max_drawdown_pct": 1.6167
-    },
-    {
-      "time": "2026-10-07T06:34:57.762913+00:00",
-      "equity": 997.207986,
-      "total_pnl": -2.792014,
-      "return_pct": -0.2792,
-      "max_drawdown_pct": 1.6167
-    },
-    {
-      "time": "2026-10-07T06:39:57.344195+00:00",
-      "equity": 997.268146,
-      "total_pnl": -2.731854,
-      "return_pct": -0.2732,
-      "max_drawdown_pct": 1.6167
-    },
-    {
-      "time": "2026-10-07T06:44:33.772685+00:00",
-      "equity": 997.336212,
-      "total_pnl": -2.663788,
-      "return_pct": -0.2664,
       "max_drawdown_pct": 1.6167
     },
     {
@@ -15487,10 +15459,38 @@
       "max_drawdown_pct": 1.6167
     },
     {
-      "time": "2026-10-14T06:34:30.076410+00:00",
+      "time": "2026-10-14T06:34:59.790985+00:00",
       "equity": 995.779198,
       "total_pnl": -4.220802,
       "return_pct": -0.4221,
+      "max_drawdown_pct": 1.6167
+    },
+    {
+      "time": "2026-10-14T06:39:31.660870+00:00",
+      "equity": 995.769878,
+      "total_pnl": -4.230122,
+      "return_pct": -0.423,
+      "max_drawdown_pct": 1.6167
+    },
+    {
+      "time": "2026-10-14T06:44:34.183785+00:00",
+      "equity": 995.769878,
+      "total_pnl": -4.230122,
+      "return_pct": -0.423,
+      "max_drawdown_pct": 1.6167
+    },
+    {
+      "time": "2026-10-14T06:49:31.002679+00:00",
+      "equity": 995.758062,
+      "total_pnl": -4.241938,
+      "return_pct": -0.4242,
+      "max_drawdown_pct": 1.6167
+    },
+    {
+      "time": "2026-10-14T06:50:04.691551+00:00",
+      "equity": 995.758062,
+      "total_pnl": -4.241938,
+      "return_pct": -0.4242,
       "max_drawdown_pct": 1.6167
     }
   ]
