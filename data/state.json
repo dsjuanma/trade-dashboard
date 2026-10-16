@@ -363,14 +363,14 @@
           "avg_latency_seconds": 284.28
         },
         "900": {
-          "samples": 2,
-          "effective_samples": 2,
+          "samples": 3,
+          "effective_samples": 3,
           "confidence_reliable": false,
-          "avg_net_return_pct": -0.9607,
+          "avg_net_return_pct": 1.7059,
           "ci_low_net_return_pct": null,
           "ci_high_net_return_pct": null,
-          "hit_rate_pct": 50.0,
-          "avg_latency_seconds": 369.89
+          "hit_rate_pct": 66.67,
+          "avg_latency_seconds": 284.28
         },
         "3600": {
           "samples": 2,
@@ -512,14 +512,14 @@
   },
   "valuation": {
     "valuation_complete": true,
-    "market_value": 46.094916,
-    "unrealized_pnl": -3.8749,
-    "equity": 992.455105,
-    "total_pnl": -7.544895,
-    "return_pct": -0.7545,
+    "market_value": 46.253357,
+    "unrealized_pnl": -3.716459,
+    "equity": 992.613546,
+    "total_pnl": -7.386454,
+    "return_pct": -0.7386,
     "peak_equity": 1000.423895,
     "max_drawdown_pct": 1.6167,
-    "marked_at": "2026-10-16T08:38:11.138187+00:00",
+    "marked_at": "2026-10-16T08:53:42.331961+00:00",
     "positions_marked": [
       {
         "symbol": "ARM",
@@ -530,9 +530,9 @@
       },
       {
         "symbol": "JTO",
-        "current_price": 0.4796,
-        "market_value": 22.349499803598313,
-        "unrealized_pnl": -2.522715361895351,
+        "current_price": 0.483,
+        "market_value": 22.507940794699717,
+        "unrealized_pnl": -2.3642743707939466,
         "position_id": "position-2931a9469fa7"
       },
       {
@@ -546,12 +546,12 @@
     "wallets": {
       "wallet-db34596b15": {
         "realized_pnl": -3.669995,
-        "unrealized_pnl": -3.8749,
-        "market_value": 46.094916,
+        "unrealized_pnl": -3.716459,
+        "market_value": 46.253357,
         "open_cost": 49.969816,
         "open_positions": 3,
         "trades": 17,
-        "total_pnl": -7.544895
+        "total_pnl": -7.386454
       }
     }
   },
@@ -564,11 +564,11 @@
     "shadow": 0,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-10-16T08:38:11.155927+00:00"
+    "last_cycle": "2026-10-16T08:53:42.341744+00:00"
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-10-16T08:38:11.173849+00:00"
+  "updated_at": "2026-10-16T08:53:42.359467+00:00"
 }
