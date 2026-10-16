@@ -402,13 +402,13 @@
       "count": 3
     },
     {
-      "status": "SHADOW",
-      "reason": "candidate_observation",
-      "count": 2
-    },
-    {
       "status": "SHADOW_REJECTED",
       "reason": "low_liquidity",
+      "count": 3
+    },
+    {
+      "status": "SHADOW",
+      "reason": "candidate_observation",
       "count": 2
     },
     {
@@ -426,13 +426,13 @@
     "strategy_version": "copytrader-paper-v3-helius-dexscreener",
     "windows": {
       "24h": {
-        "total": 4,
+        "total": 5,
         "statuses": {
-          "SHADOW_REJECTED": 4
+          "SHADOW_REJECTED": 5
         },
         "reasons": {
           "stale_signal": 3,
-          "low_liquidity": 1
+          "low_liquidity": 2
         },
         "wallets": {
           "wallet-24dbf78d33": {
@@ -440,19 +440,25 @@
             "statuses": {
               "SHADOW_REJECTED": 4
             }
+          },
+          "wallet-3c2f9887f4": {
+            "total": 1,
+            "statuses": {
+              "SHADOW_REJECTED": 1
+            }
           }
         }
       },
       "7d": {
-        "total": 18,
+        "total": 19,
         "statuses": {
           "SHADOW": 2,
-          "SHADOW_REJECTED": 16
+          "SHADOW_REJECTED": 17
         },
         "reasons": {
           "stale_signal": 14,
-          "candidate_observation": 2,
-          "low_liquidity": 2
+          "low_liquidity": 3,
+          "candidate_observation": 2
         },
         "wallets": {
           "wallet-1d17c0eb7c": {
@@ -466,6 +472,12 @@
             "total": 14,
             "statuses": {
               "SHADOW_REJECTED": 14
+            }
+          },
+          "wallet-3c2f9887f4": {
+            "total": 1,
+            "statuses": {
+              "SHADOW_REJECTED": 1
             }
           }
         }
@@ -493,9 +505,9 @@
     "cohorts": [
       {
         "strategy_version": "copytrader-paper-v3-helius-dexscreener",
-        "decisions": 18,
+        "decisions": 19,
         "first_at": 1791758699.355664,
-        "last_at": 1792183657.334811,
+        "last_at": 1792194857.476688,
         "copied": 0,
         "rejected": 0,
         "ignored": 0
@@ -520,7 +532,7 @@
     "return_pct": -0.8721,
     "peak_equity": 1000.423895,
     "max_drawdown_pct": 1.6167,
-    "marked_at": "2026-10-16T23:41:42.856653+00:00",
+    "marked_at": "2026-10-16T23:54:18.284695+00:00",
     "positions_marked": [
       {
         "symbol": "ARM",
@@ -557,19 +569,19 @@
     }
   },
   "operations": {
-    "tx_new": 0,
-    "signals": 0,
+    "tx_new": 1,
+    "signals": 1,
     "copied": 0,
     "rejected": 0,
     "ignored": 0,
-    "shadow": 0,
+    "shadow": 1,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-10-16T23:41:42.903585+00:00"
+    "last_cycle": "2026-10-16T23:54:18.301982+00:00"
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-10-16T23:41:42.930270+00:00"
+  "updated_at": "2026-10-16T23:54:18.322251+00:00"
 }
