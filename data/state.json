@@ -621,11 +621,11 @@
     "shadow": 0,
     "api_errors": 0,
     "valuation_complete": false,
-    "last_cycle": "2026-10-17T06:47:09.363713+00:00"
+    "last_cycle": "2026-10-17T07:02:41.354636+00:00"
   },
   "circuit_breaker": {
-    "paused_until": "2026-10-17T07:02:09.351828+00:00",
+    "paused_until": "2026-10-17T07:17:41.312755+00:00",
     "reason": "stale_prices"
   },
-  "updated_at": "2026-10-17T06:47:09.382763+00:00"
+  "updated_at": "2026-10-17T07:02:41.373813+00:00"
 }
