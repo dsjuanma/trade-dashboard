@@ -576,7 +576,7 @@
     "return_pct": -0.8971,
     "peak_equity": 1000.423895,
     "max_drawdown_pct": 1.6167,
-    "marked_at": "2026-10-17T14:36:59.060039+00:00",
+    "marked_at": "2026-10-17T14:52:27.792036+00:00",
     "positions_marked": [
       {
         "symbol": "ARM",
@@ -621,11 +621,11 @@
     "shadow": 0,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-10-17T14:36:59.078521+00:00"
+    "last_cycle": "2026-10-17T14:52:27.798571+00:00"
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-10-17T14:36:59.098541+00:00"
+  "updated_at": "2026-10-17T14:52:27.817881+00:00"
 }
