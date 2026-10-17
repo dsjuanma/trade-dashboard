@@ -470,19 +470,19 @@
     "strategy_version": "copytrader-paper-v3-helius-dexscreener",
     "windows": {
       "24h": {
-        "total": 5,
+        "total": 4,
         "statuses": {
-          "SHADOW_REJECTED": 5
+          "SHADOW_REJECTED": 4
         },
         "reasons": {
-          "stale_signal": 3,
-          "low_liquidity": 2
+          "low_liquidity": 2,
+          "stale_signal": 2
         },
         "wallets": {
           "wallet-24dbf78d33": {
-            "total": 4,
+            "total": 3,
             "statuses": {
-              "SHADOW_REJECTED": 4
+              "SHADOW_REJECTED": 3
             }
           },
           "wallet-3c2f9887f4": {
@@ -569,14 +569,14 @@
   },
   "valuation": {
     "valuation_complete": true,
-    "market_value": 45.395567,
-    "unrealized_pnl": -4.574248,
-    "equity": 991.755757,
-    "total_pnl": -8.244243,
-    "return_pct": -0.8244,
+    "market_value": 45.293047,
+    "unrealized_pnl": -4.676769,
+    "equity": 991.653236,
+    "total_pnl": -8.346764,
+    "return_pct": -0.8347,
     "peak_equity": 1000.423895,
     "max_drawdown_pct": 1.6167,
-    "marked_at": "2026-10-17T04:02:30.753281+00:00",
+    "marked_at": "2026-10-17T04:17:37.846244+00:00",
     "positions_marked": [
       {
         "symbol": "ARM",
@@ -587,9 +587,9 @@
       },
       {
         "symbol": "JTO",
-        "current_price": 0.4735,
-        "market_value": 22.06523802544579,
-        "unrealized_pnl": -2.8069771400478736,
+        "current_price": 0.4713,
+        "market_value": 21.96271738414488,
+        "unrealized_pnl": -2.909497781348783,
         "position_id": "position-2931a9469fa7"
       },
       {
@@ -603,12 +603,12 @@
     "wallets": {
       "wallet-db34596b15": {
         "realized_pnl": -3.669995,
-        "unrealized_pnl": -4.574248,
-        "market_value": 45.395567,
+        "unrealized_pnl": -4.676769,
+        "market_value": 45.293047,
         "open_cost": 49.969816,
         "open_positions": 3,
         "trades": 17,
-        "total_pnl": -8.244243
+        "total_pnl": -8.346764
       }
     }
   },
@@ -621,11 +621,11 @@
     "shadow": 0,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-10-17T04:02:30.770803+00:00"
+    "last_cycle": "2026-10-17T04:17:37.865707+00:00"
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-10-17T04:02:30.792204+00:00"
+  "updated_at": "2026-10-17T04:17:37.894586+00:00"
 }
