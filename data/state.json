@@ -265,6 +265,16 @@
           "ci_high_net_return_pct": null,
           "hit_rate_pct": 0.0,
           "avg_latency_seconds": 2944141.02
+        },
+        "3600": {
+          "samples": 1,
+          "effective_samples": 1,
+          "confidence_reliable": false,
+          "avg_net_return_pct": -1.8435,
+          "ci_low_net_return_pct": null,
+          "ci_high_net_return_pct": null,
+          "hit_rate_pct": 0.0,
+          "avg_latency_seconds": 2944141.02
         }
       },
       "SELL": {
@@ -289,24 +299,24 @@
           "avg_latency_seconds": 40672.11
         },
         "900": {
-          "samples": 6,
-          "effective_samples": 5,
+          "samples": 10,
+          "effective_samples": 9,
           "confidence_reliable": false,
-          "avg_net_return_pct": 4.17,
+          "avg_net_return_pct": 0.4085,
           "ci_low_net_return_pct": null,
           "ci_high_net_return_pct": null,
-          "hit_rate_pct": 83.33,
-          "avg_latency_seconds": 236.5
+          "hit_rate_pct": 50.0,
+          "avg_latency_seconds": 28394.55
         },
         "3600": {
-          "samples": 6,
-          "effective_samples": 5,
+          "samples": 9,
+          "effective_samples": 7,
           "confidence_reliable": false,
-          "avg_net_return_pct": 3.3011,
+          "avg_net_return_pct": 2.1973,
           "ci_low_net_return_pct": null,
           "ci_high_net_return_pct": null,
-          "hit_rate_pct": 83.33,
-          "avg_latency_seconds": 236.5
+          "hit_rate_pct": 77.78,
+          "avg_latency_seconds": 988891.23
         }
       }
     },
@@ -407,6 +417,16 @@
           "ci_high_net_return_pct": null,
           "hit_rate_pct": 0.0,
           "avg_latency_seconds": 1475513.43
+        },
+        "3600": {
+          "samples": 2,
+          "effective_samples": 2,
+          "confidence_reliable": false,
+          "avg_net_return_pct": -3.6054,
+          "ci_low_net_return_pct": null,
+          "ci_high_net_return_pct": null,
+          "hit_rate_pct": 0.0,
+          "avg_latency_seconds": 2601407.18
         }
       },
       "SELL": {
@@ -441,14 +461,14 @@
           "avg_latency_seconds": 1250476.72
         },
         "3600": {
-          "samples": 1,
-          "effective_samples": 1,
+          "samples": 2,
+          "effective_samples": 2,
           "confidence_reliable": false,
-          "avg_net_return_pct": -0.7512,
+          "avg_net_return_pct": 1.593,
           "ci_low_net_return_pct": null,
           "ci_high_net_return_pct": null,
-          "hit_rate_pct": 0.0,
-          "avg_latency_seconds": 557.48
+          "hit_rate_pct": 50.0,
+          "avg_latency_seconds": 951286.83
         }
       }
     }
@@ -614,46 +634,46 @@
   },
   "valuation": {
     "valuation_complete": true,
-    "market_value": 25.428478,
-    "unrealized_pnl": -24.541338,
-    "equity": 971.788667,
-    "total_pnl": -28.211333,
-    "return_pct": -2.8211,
+    "market_value": 22.950974,
+    "unrealized_pnl": -27.018842,
+    "equity": 969.311163,
+    "total_pnl": -30.688837,
+    "return_pct": -3.0689,
     "peak_equity": 1000.423895,
-    "max_drawdown_pct": 2.865,
-    "marked_at": "2026-11-22T22:14:57.598694+00:00",
+    "max_drawdown_pct": 3.11,
+    "marked_at": "2026-11-22T22:33:02.396325+00:00",
     "positions_marked": [
       {
         "symbol": "ARM",
-        "current_price": 159.25,
-        "market_value": 0.0457576681484231,
-        "unrealized_pnl": -0.05184277045456185,
+        "current_price": 159.17,
+        "market_value": 0.04573468156473786,
+        "unrealized_pnl": -0.05186575703824709,
         "position_id": "position-80dd6fa6a430"
       },
       {
         "symbol": "JTO",
-        "current_price": 0.2345,
-        "market_value": 10.927768356846965,
-        "unrealized_pnl": -13.944446808646699,
+        "current_price": 0.1818,
+        "market_value": 8.471932994775173,
+        "unrealized_pnl": -16.40028217071849,
         "position_id": "position-2931a9469fa7"
       },
       {
         "symbol": "NVDAx",
-        "current_price": 133.56,
-        "market_value": 14.454951519111166,
-        "unrealized_pnl": -10.545048480888834,
+        "current_price": 133.36,
+        "market_value": 14.433305889403005,
+        "unrealized_pnl": -10.566694110596995,
         "position_id": "position-905a5620934a"
       }
     ],
     "wallets": {
       "wallet-db34596b15": {
         "realized_pnl": -3.669995,
-        "unrealized_pnl": -24.541338,
-        "market_value": 25.428478,
+        "unrealized_pnl": -27.018842,
+        "market_value": 22.950974,
         "open_cost": 49.969816,
         "open_positions": 3,
         "trades": 17,
-        "total_pnl": -28.211333
+        "total_pnl": -30.688837
       }
     }
   },
@@ -666,11 +686,11 @@
     "shadow": 0,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-11-22T22:14:57.608491+00:00"
+    "last_cycle": "2026-11-22T22:33:02.404329+00:00"
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-11-22T22:14:57.628861+00:00"
+  "updated_at": "2026-11-22T22:33:02.424646+00:00"
 }
