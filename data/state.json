@@ -309,14 +309,14 @@
           "avg_latency_seconds": 28394.55
         },
         "3600": {
-          "samples": 10,
-          "effective_samples": 8,
+          "samples": 18,
+          "effective_samples": 16,
           "confidence_reliable": false,
-          "avg_net_return_pct": 1.8942,
+          "avg_net_return_pct": 0.9795,
           "ci_low_net_return_pct": null,
           "ci_high_net_return_pct": null,
-          "hit_rate_pct": 70.0,
-          "avg_latency_seconds": 1154940.72
+          "hit_rate_pct": 61.11,
+          "avg_latency_seconds": 673188.77
         }
       }
     },
@@ -343,14 +343,14 @@
           "avg_latency_seconds": 245786.06
         },
         "900": {
-          "samples": 32,
-          "effective_samples": 13,
+          "samples": 37,
+          "effective_samples": 14,
           "confidence_reliable": false,
-          "avg_net_return_pct": -0.5642,
+          "avg_net_return_pct": -0.4028,
           "ci_low_net_return_pct": null,
           "ci_high_net_return_pct": null,
-          "hit_rate_pct": 31.25,
-          "avg_latency_seconds": 741310.8
+          "hit_rate_pct": 29.73,
+          "avg_latency_seconds": 671096.07
         },
         "3600": {
           "samples": 11,
@@ -634,46 +634,46 @@
   },
   "valuation": {
     "valuation_complete": true,
-    "market_value": 25.440987,
-    "unrealized_pnl": -24.528829,
-    "equity": 971.801176,
-    "total_pnl": -28.198824,
-    "return_pct": -2.8199,
+    "market_value": 25.467824,
+    "unrealized_pnl": -24.501992,
+    "equity": 971.828013,
+    "total_pnl": -28.171987,
+    "return_pct": -2.8172,
     "peak_equity": 1000.423895,
     "max_drawdown_pct": 3.11,
-    "marked_at": "2026-11-22T23:00:29.923361+00:00",
+    "marked_at": "2026-11-22T23:17:56.302276+00:00",
     "positions_marked": [
       {
         "symbol": "ARM",
-        "current_price": 159.17,
-        "market_value": 0.04573468156473786,
-        "unrealized_pnl": -0.05186575703824709,
+        "current_price": 158.5,
+        "market_value": 0.04554216892637401,
+        "unrealized_pnl": -0.05205826967661094,
         "position_id": "position-80dd6fa6a430"
       },
       {
         "symbol": "JTO",
-        "current_price": 0.2324,
-        "market_value": 10.829907744696097,
-        "unrealized_pnl": -14.042307420797567,
+        "current_price": 0.2337,
+        "market_value": 10.890488123646634,
+        "unrealized_pnl": -13.98172704184703,
         "position_id": "position-2931a9469fa7"
       },
       {
         "symbol": "NVDAx",
-        "current_price": 134.58,
-        "market_value": 14.565344230622799,
-        "unrealized_pnl": -10.434655769377201,
+        "current_price": 134.27,
+        "market_value": 14.531793504575145,
+        "unrealized_pnl": -10.468206495424855,
         "position_id": "position-905a5620934a"
       }
     ],
     "wallets": {
       "wallet-db34596b15": {
         "realized_pnl": -3.669995,
-        "unrealized_pnl": -24.528829,
-        "market_value": 25.440987,
+        "unrealized_pnl": -24.501992,
+        "market_value": 25.467824,
         "open_cost": 49.969816,
         "open_positions": 3,
         "trades": 17,
-        "total_pnl": -28.198824
+        "total_pnl": -28.171987
       }
     }
   },
@@ -686,11 +686,11 @@
     "shadow": 0,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-11-22T23:00:29.933096+00:00"
+    "last_cycle": "2026-11-22T23:17:56.320598+00:00"
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-11-22T23:00:29.957224+00:00"
+  "updated_at": "2026-11-22T23:17:56.340143+00:00"
 }
