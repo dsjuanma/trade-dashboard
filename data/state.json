@@ -323,44 +323,44 @@
     "wallet-24dbf78d33": {
       "BUY": {
         "60": {
-          "samples": 33,
-          "effective_samples": 13,
+          "samples": 37,
+          "effective_samples": 14,
           "confidence_reliable": false,
-          "avg_net_return_pct": -3.3292,
+          "avg_net_return_pct": -2.9285,
           "ci_low_net_return_pct": null,
           "ci_high_net_return_pct": null,
-          "hit_rate_pct": 9.09,
-          "avg_latency_seconds": 718854.22
+          "hit_rate_pct": 18.92,
+          "avg_latency_seconds": 658852.79
         },
         "300": {
-          "samples": 13,
-          "effective_samples": 9,
+          "samples": 18,
+          "effective_samples": 11,
           "confidence_reliable": false,
-          "avg_net_return_pct": 2.827,
-          "ci_low_net_return_pct": null,
-          "ci_high_net_return_pct": null,
-          "hit_rate_pct": 30.77,
-          "avg_latency_seconds": 255041.53
-        },
-        "900": {
-          "samples": 10,
-          "effective_samples": 8,
-          "confidence_reliable": false,
-          "avg_net_return_pct": 0.9808,
-          "ci_low_net_return_pct": null,
-          "ci_high_net_return_pct": null,
-          "hit_rate_pct": 40.0,
-          "avg_latency_seconds": 406797.57
-        },
-        "3600": {
-          "samples": 9,
-          "effective_samples": 7,
-          "confidence_reliable": false,
-          "avg_net_return_pct": -7.0533,
+          "avg_net_return_pct": 2.4147,
           "ci_low_net_return_pct": null,
           "ci_high_net_return_pct": null,
           "hit_rate_pct": 44.44,
-          "avg_latency_seconds": 701.84
+          "avg_latency_seconds": 245786.06
+        },
+        "900": {
+          "samples": 32,
+          "effective_samples": 13,
+          "confidence_reliable": false,
+          "avg_net_return_pct": -0.5642,
+          "ci_low_net_return_pct": null,
+          "ci_high_net_return_pct": null,
+          "hit_rate_pct": 31.25,
+          "avg_latency_seconds": 741310.8
+        },
+        "3600": {
+          "samples": 11,
+          "effective_samples": 8,
+          "confidence_reliable": false,
+          "avg_net_return_pct": -5.7864,
+          "ci_low_net_return_pct": null,
+          "ci_high_net_return_pct": null,
+          "hit_rate_pct": 36.36,
+          "avg_latency_seconds": 369838.13
         }
       },
       "SELL": {
@@ -385,24 +385,24 @@
           "avg_latency_seconds": 606299.74
         },
         "900": {
-          "samples": 8,
-          "effective_samples": 8,
+          "samples": 28,
+          "effective_samples": 18,
           "confidence_reliable": false,
-          "avg_net_return_pct": 0.1956,
+          "avg_net_return_pct": -0.9814,
           "ci_low_net_return_pct": null,
           "ci_high_net_return_pct": null,
-          "hit_rate_pct": 25.0,
-          "avg_latency_seconds": 762838.59
+          "hit_rate_pct": 7.14,
+          "avg_latency_seconds": 720581.41
         },
         "3600": {
-          "samples": 6,
-          "effective_samples": 6,
+          "samples": 9,
+          "effective_samples": 8,
           "confidence_reliable": false,
-          "avg_net_return_pct": 5.063,
+          "avg_net_return_pct": 3.2374,
           "ci_low_net_return_pct": null,
           "ci_high_net_return_pct": null,
-          "hit_rate_pct": 66.67,
-          "avg_latency_seconds": 354283.84
+          "hit_rate_pct": 55.56,
+          "avg_latency_seconds": 914142.36
         }
       }
     },
@@ -482,7 +482,7 @@
     {
       "status": "SHADOW_REJECTED",
       "reason": "low_liquidity",
-      "count": 23
+      "count": 27
     },
     {
       "status": "SHADOW_REJECTED",
@@ -524,14 +524,14 @@
     "strategy_version": "copytrader-paper-v3-helius-dexscreener",
     "windows": {
       "24h": {
-        "total": 81,
+        "total": 85,
         "statuses": {
-          "SHADOW_REJECTED": 79,
+          "SHADOW_REJECTED": 83,
           "IGNORED": 2
         },
         "reasons": {
           "stale_signal": 53,
-          "low_liquidity": 20,
+          "low_liquidity": 24,
           "source_trade_too_small": 6,
           "missing_executable_quote": 2
         },
@@ -543,10 +543,10 @@
             }
           },
           "wallet-24dbf78d33": {
-            "total": 51,
+            "total": 55,
             "statuses": {
               "IGNORED": 2,
-              "SHADOW_REJECTED": 49
+              "SHADOW_REJECTED": 53
             }
           },
           "wallet-3c2f9887f4": {
@@ -558,14 +558,14 @@
         }
       },
       "7d": {
-        "total": 81,
+        "total": 85,
         "statuses": {
-          "SHADOW_REJECTED": 79,
+          "SHADOW_REJECTED": 83,
           "IGNORED": 2
         },
         "reasons": {
           "stale_signal": 53,
-          "low_liquidity": 20,
+          "low_liquidity": 24,
           "source_trade_too_small": 6,
           "missing_executable_quote": 2
         },
@@ -577,10 +577,10 @@
             }
           },
           "wallet-24dbf78d33": {
-            "total": 51,
+            "total": 55,
             "statuses": {
               "IGNORED": 2,
-              "SHADOW_REJECTED": 49
+              "SHADOW_REJECTED": 53
             }
           },
           "wallet-3c2f9887f4": {
@@ -614,9 +614,9 @@
     "cohorts": [
       {
         "strategy_version": "copytrader-paper-v3-helius-dexscreener",
-        "decisions": 102,
+        "decisions": 106,
         "first_at": 1791758699.355664,
-        "last_at": 1795387670.198762,
+        "last_at": 1795387969.491127,
         "copied": 0,
         "rejected": 0,
         "ignored": 2
@@ -634,14 +634,14 @@
   },
   "valuation": {
     "valuation_complete": true,
-    "market_value": 25.513141,
-    "unrealized_pnl": -24.456674,
-    "equity": 971.873331,
-    "total_pnl": -28.126669,
-    "return_pct": -2.8127,
+    "market_value": 25.440987,
+    "unrealized_pnl": -24.528829,
+    "equity": 971.801176,
+    "total_pnl": -28.198824,
+    "return_pct": -2.8199,
     "peak_equity": 1000.423895,
     "max_drawdown_pct": 3.11,
-    "marked_at": "2026-11-22T22:47:50.707183+00:00",
+    "marked_at": "2026-11-22T23:00:29.923361+00:00",
     "positions_marked": [
       {
         "symbol": "ARM",
@@ -652,45 +652,45 @@
       },
       {
         "symbol": "JTO",
-        "current_price": 0.2336,
-        "market_value": 10.885828094496594,
-        "unrealized_pnl": -13.98638707099707,
+        "current_price": 0.2324,
+        "market_value": 10.829907744696097,
+        "unrealized_pnl": -14.042307420797567,
         "position_id": "position-2931a9469fa7"
       },
       {
         "symbol": "NVDAx",
-        "current_price": 134.73,
-        "market_value": 14.581578452903917,
-        "unrealized_pnl": -10.418421547096083,
+        "current_price": 134.58,
+        "market_value": 14.565344230622799,
+        "unrealized_pnl": -10.434655769377201,
         "position_id": "position-905a5620934a"
       }
     ],
     "wallets": {
       "wallet-db34596b15": {
         "realized_pnl": -3.669995,
-        "unrealized_pnl": -24.456674,
-        "market_value": 25.513141,
+        "unrealized_pnl": -24.528829,
+        "market_value": 25.440987,
         "open_cost": 49.969816,
         "open_positions": 3,
         "trades": 17,
-        "total_pnl": -28.126669
+        "total_pnl": -28.198824
       }
     }
   },
   "operations": {
-    "tx_new": 1,
-    "signals": 1,
+    "tx_new": 0,
+    "signals": 0,
     "copied": 0,
     "rejected": 0,
     "ignored": 0,
-    "shadow": 1,
+    "shadow": 0,
     "api_errors": 0,
     "valuation_complete": true,
-    "last_cycle": "2026-11-22T22:47:50.715775+00:00"
+    "last_cycle": "2026-11-22T23:00:29.933096+00:00"
   },
   "circuit_breaker": {
     "paused_until": null,
     "reason": null
   },
-  "updated_at": "2026-11-22T22:47:50.745195+00:00"
+  "updated_at": "2026-11-22T23:00:29.957224+00:00"
 }
