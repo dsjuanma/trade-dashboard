@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T18:17:00.661582+00:00",
+  "generated_at": "2026-11-25T18:24:30.445386+00:00",
   "strategy_version": "copytrader-paper-v3-helius-dexscreener",
   "points": [
     {
@@ -3675,6 +3675,13 @@
       "equity": 972.949976,
       "total_pnl": -27.050024,
       "return_pct": -2.705,
+      "max_drawdown_pct": 3.11
+    },
+    {
+      "time": "2026-11-25T18:24:30.384742+00:00",
+      "equity": 972.998095,
+      "total_pnl": -27.001905,
+      "return_pct": -2.7002,
       "max_drawdown_pct": 3.11
     }
   ]
